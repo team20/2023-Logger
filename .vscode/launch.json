@@ -9,7 +9,7 @@
       "name": "Launch LoggerFeeder",
       "request": "launch",
       "mainClass": "frc.robot.replay.LoggerFeeder",
-      "projectName": "logger"
+      "projectName": "2023-Logger"
     },
     {
       "type": "java",
@@ -17,7 +17,7 @@
       "request": "launch",
       "mainClass": "frc.robot.Visualizer",
       "vmArgs": "--module-path lib/javafx-sdk-19.0.2.1/Windows/lib --add-modules javafx.controls,javafx.fxml",
-      "projectName": "logger"
+      "projectName": "2023-Logger"
     },
     {
       "type": "java",
@@ -25,7 +25,7 @@
       "request": "launch",
       "mainClass": "frc.robot.replay.VisualizerReplayPoseEstimated",
       "vmArgs": "--module-path lib/javafx-sdk-19.0.2.1/Windows/lib --add-modules javafx.controls,javafx.fxml",
-      "projectName": "logger"
+      "projectName": "2023-Logger"
     },
     {
       "type": "java",
@@ -33,7 +33,7 @@
       "request": "launch",
       "mainClass": "frc.robot.replay.VisualizerReplay",
       "vmArgs": "--module-path lib/javafx-sdk-19.0.2.1/Windows/lib --add-modules javafx.controls,javafx.fxml",
-      "projectName": "logger"
+      "projectName": "2023-Logger"
     },
     {
       "type": "wpilib",
