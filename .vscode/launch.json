@@ -35,11 +35,10 @@
       "vmArgs": "--module-path lib/javafx-sdk-19.0.2.1/Windows/lib --add-modules javafx.controls,javafx.fxml",
       "projectName": "2023-Logger"
     },
-    {
-      "type": "wpilib",
+    {      "type": "wpilib",
       "name": "WPILib Desktop Debug",
       "request": "launch",
-      "desktop": true
+      "desktop": true,
     }
   ]
 }
