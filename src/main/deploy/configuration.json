@@ -1,0 +1,152 @@
+{
+  "RoboRIO IP address": "10.0.20.2",
+  "target choosers": [
+    {
+      "label": "target(button[0])"
+    },
+    {
+      "label": "target(button[1])"
+    },
+    {
+      "label": "target(button[2])"
+    }
+  ],
+  "subscriptions": [
+    {
+      "table name": "logger",
+      "topic name": "heartbeat",
+      "data type": "long",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "target(button[0])",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "target(button[1])",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "target(button[2])",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "limelight",
+      "topic name": "botpose",
+      "data type": "double[]",
+      "default value": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Pose (Estimated)",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Pose (LimeLight)",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Wheel Encoder Positions",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Target ID",
+      "data type": "String",
+      "default value": ""
+    }
+  ],
+  "poses": [
+    {
+      "id": "1l",
+      "pose": [
+        6.54310,
+        -3.49539,
+        0
+      ]
+    },
+    {
+      "id": "1",
+      "pose": [
+        6.54310,
+        -2.93659,
+        0
+      ]
+    },
+    {
+      "id": "1r",
+      "pose": [
+        6.54310,
+        -2.37779,
+        0
+      ]
+    },
+    {
+      "id": "2",
+      "pose": [
+        6.54310,
+        -1.26019,
+        0
+      ]
+    },
+    {
+      "id": "3",
+      "pose": [
+        6.54310,
+        0.41621,
+        0
+      ]
+    },
+    {
+      "id": "4",
+      "pose": [
+        7.20832,
+        2.74161,
+        0
+      ]
+    },
+    {
+      "id": "5",
+      "pose": [
+        -7.20832,
+        2.74161,
+        180
+      ]
+    },
+    {
+      "id": "6",
+      "pose": [
+        -6.54310,
+        0.41621,
+        180
+      ]
+    },
+    {
+      "id": "7",
+      "pose": [
+        -6.54310,
+        -1.26019,
+        180
+      ]
+    },
+    {
+      "id": "8",
+      "pose": [
+        -6.54310,
+        -2.93659,
+        180
+      ]
+    }
+  ]
+}

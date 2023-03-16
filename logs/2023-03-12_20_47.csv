@@ -1,0 +1,1321 @@
+Timestamp; Table Name; Topic Name; Value
+1678668453655; SmartDashboard; Target ID; 2
+1678668453654; limelight; botpose; [5.8411419592260145, -0.5292322482049564, 0.3753884116328916, 2.453284761825625, 1.0443249841996805, -16.059424273918967]
+1678668453654; SmartDashboard; Pose (Estimated); (5.840, -0.529, -16.1 degrees)
+1678668453655; SmartDashboard; Pose (LimeLight); (5.841, -0.529, -16.1 degrees)
+1678668453655; SmartDashboard; Wheel Encoder Positions; (0.000, 0.000)
+1678668453773; limelight; botpose; [5.840551708625362, -0.529401236315514, 0.37563100690763584, 2.2450486386733814, 1.0889620545330303, -16.055441089319494]
+1678668453844; limelight; botpose; [5.83873565261541, -0.5313512221514691, 0.3720754379681513, 2.4574687793628756, 0.9199772351313871, -15.953146430914881]
+1678668453844; SmartDashboard; Pose (LimeLight); (5.839, -0.531, -16.0 degrees)
+1678668453844; SmartDashboard; Pose (Estimated); (5.840, -0.529, -16.0 degrees)
+1678668453944; limelight; botpose; [5.839981452619247, -0.529191053621239, 0.3769961552956353, 2.345179407420316, 1.1189845947287143, -16.050458184382766]
+1678668453944; SmartDashboard; Pose (LimeLight); (5.840, -0.529, -16.1 degrees)
+1678668454053; limelight; botpose; [5.847937679147291, -0.5182364005586053, 0.38513658699454456, 2.2997602034566604, 1.427709039681662, -16.53354014143182]
+1678668454053; SmartDashboard; Pose (LimeLight); (5.843, -0.526, -16.2 degrees)
+1678668454053; SmartDashboard; Pose (Estimated); (5.840, -0.529, -16.1 degrees)
+1678668454144; SmartDashboard; Pose (LimeLight); (5.851, -0.514, -16.7 degrees)
+1678668454145; SmartDashboard; Pose (Estimated); (5.841, -0.528, -16.1 degrees)
+1678668454145; limelight; botpose; [5.85149627711369, -0.5144311383403823, 0.36445633278580497, 2.3223507954525915, 0.6588940367435521, -16.697959256771416]
+1678668454245; SmartDashboard; Pose (Estimated); (5.842, -0.526, -16.2 degrees)
+1678668454245; limelight; botpose; [5.846413588209453, -0.5214337322296927, 0.3790150924148684, 2.3148257440684445, 1.1989595697057536, -16.399368746355126]
+1678668454246; SmartDashboard; Pose (LimeLight); (5.846, -0.521, -16.4 degrees)
+1678668454349; limelight; botpose; [5.8326644746243375, -0.5375995919164779, 0.39019904730644667, 2.2917440197348267, 1.627101062912025, -15.673760130311953]
+1678668454350; SmartDashboard; Pose (LimeLight); (5.833, -0.538, -15.7 degrees)
+1678668454350; SmartDashboard; Pose (Estimated); (5.841, -0.527, -16.1 degrees)
+1678668454444; limelight; botpose; [5.842985326661429, -0.5287701127376946, 0.37053707206452596, 2.420458388682497, 0.8668723613846948, -16.094533519601683]
+1678668454444; SmartDashboard; Pose (LimeLight); (5.843, -0.529, -16.1 degrees)
+1678668454444; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.1 degrees)
+1678668454543; limelight; botpose; [5.8474383787717965, -0.5205832732430395, 0.37076670562850383, 2.3336290945284905, 0.8966448969066046, -16.441762562116114]
+1678668454544; SmartDashboard; Pose (LimeLight); (5.847, -0.521, -16.4 degrees)
+1678668454544; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.2 degrees)
+1678668454644; limelight; botpose; [5.844695967599263, -0.5269121557000117, 0.3778072256525425, 2.215047989475379, 1.1677046488060248, -16.19669965051202]
+1678668454644; SmartDashboard; Pose (LimeLight); (5.845, -0.527, -16.2 degrees)
+1678668454744; limelight; botpose; [5.839549228212994, -0.529155959421954, 0.3800245768007025, 2.381206817661514, 1.2274676895018228, -16.041612604357177]
+1678668454744; SmartDashboard; Pose (LimeLight); (5.840, -0.529, -16.0 degrees)
+1678668454744; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.1 degrees)
+1678668454844; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.2 degrees)
+1678668454845; limelight; botpose; [5.8485511219477075, -0.5197962425912138, 0.3746165140471748, 2.330285106787551, 1.0308743886188052, -16.479489566654625]
+1678668454845; SmartDashboard; Pose (LimeLight); (5.849, -0.520, -16.5 degrees)
+1678668454955; limelight; botpose; [5.846450019205618, -0.5242466893623017, 0.3666517687929235, 2.440493160857316, 0.7174029947787856, -16.29600273465394]
+1678668454956; SmartDashboard; Pose (LimeLight); (5.846, -0.524, -16.3 degrees)
+1678668454956; SmartDashboard; Pose (Estimated); (5.843, -0.527, -16.2 degrees)
+1678668455045; limelight; botpose; [5.840987305487986, -0.5292881199883182, 0.3888180165834915, 2.3095270859666694, 1.5640121622475642, -16.06346112386484]
+1678668455045; SmartDashboard; Pose (LimeLight); (5.841, -0.529, -16.1 degrees)
+1678668455147; limelight; botpose; [5.850021597677851, -0.5183311548893483, 0.37428599795040196, 2.338846266451496, 1.0161167978073766, -16.554320256267204]
+1678668455147; SmartDashboard; Pose (LimeLight); (5.850, -0.518, -16.6 degrees)
+1678668455147; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.2 degrees)
+1678668455244; limelight; botpose; [5.836075043878403, -0.5321141642009584, 0.3883529316168624, 2.2775897351819374, 1.5532284040712365, -15.909899648354957]
+1678668455245; SmartDashboard; Pose (LimeLight); (5.836, -0.532, -15.9 degrees)
+1678668455401; limelight; botpose; [5.849074850598758, -0.5204586187672596, 0.36295834169049923, 2.3205734508207745, 0.599772025441425, -16.466110405700398]
+1678668455401; SmartDashboard; Pose (LimeLight); (5.849, -0.520, -16.5 degrees)
+1678668455401; SmartDashboard; Pose (Estimated); (5.843, -0.526, -16.2 degrees)
+1678668455444; limelight; botpose; [5.841570756634239, -0.523873097701044, 0.3865576339601267, 2.3310439138287298, 1.4805313878597437, -16.2509463052106]
+1678668455444; SmartDashboard; Pose (LimeLight); (5.842, -0.524, -16.3 degrees)
+1678668455545; limelight; botpose; [5.843524232752864, -0.5245751478223882, 0.3815109110289959, 2.3896526451911893, 1.2795125923352952, -16.251588494678373]
+1678668455660; limelight; botpose; [5.833503523844556, -0.5365356924973901, 0.38078632857629297, 2.4733485844248917, 1.2433292767436874, -15.71159819232676]
+1678668455660; SmartDashboard; Pose (LimeLight); (5.844, -0.525, -16.3 degrees)
+1678668455745; limelight; botpose; [5.847397011854249, -0.521693206667889, 0.3692687795489341, 2.324318750353481, 0.8383578624788329, -16.40246450428607]
+1678668455745; SmartDashboard; Pose (LimeLight); (5.847, -0.522, -16.4 degrees)
+1678668455868; limelight; botpose; [5.849367367530505, -0.5176860894766565, 0.364356794187035, 2.353002489254356, 0.6501483765394265, -16.566276060332953]
+1678668455869; SmartDashboard; Pose (Estimated); (5.844, -0.525, -16.2 degrees)
+1678668455869; SmartDashboard; Pose (LimeLight); (5.849, -0.518, -16.6 degrees)
+1678668455972; limelight; botpose; [5.840358522321773, -0.527698254864626, 0.3897583436116019, 2.322184291127368, 1.6011123206573779, -16.108229704670393]
+1678668455973; SmartDashboard; Pose (LimeLight); (5.840, -0.528, -16.1 degrees)
+1678668455973; SmartDashboard; Pose (Estimated); (5.843, -0.525, -16.2 degrees)
+1678668456048; limelight; botpose; [5.83999785740543, -0.5290642101415735, 0.3784655058175626, 2.4338334771634567, 1.159576356433949, -16.047065710542554]
+1678668456049; SmartDashboard; Pose (LimeLight); (5.840, -0.529, -16.0 degrees)
+1678668456049; SmartDashboard; Pose (Estimated); (5.843, -0.526, -16.2 degrees)
+1678668456146; limelight; botpose; [5.844592370691177, -0.5201378855639497, 0.3832446696459524, 2.3543169884145354, 1.3528956195111002, -16.413384210970026]
+1678668456147; SmartDashboard; Pose (LimeLight); (5.845, -0.520, -16.4 degrees)
+1678668456147; SmartDashboard; Pose (Estimated); (5.843, -0.525, -16.2 degrees)
+1678668456247; limelight; botpose; [5.842000879711943, -0.528482437374537, 0.37211448124344065, 2.3506112877656857, 0.9389552883701876, -16.097646683151908]
+1678668456247; SmartDashboard; Pose (LimeLight); (5.842, -0.528, -16.1 degrees)
+1678668456347; limelight; botpose; [5.845813959718767, -0.5235329292926155, 0.3735913232235495, 2.4003414075560507, 0.981835991102869, -16.312697048941363]
+1678668456347; SmartDashboard; Pose (LimeLight); (5.841, -0.529, -16.1 degrees)
+1678668456347; SmartDashboard; Pose (Estimated); (5.843, -0.526, -16.2 degrees)
+1678668456447; limelight; botpose; [5.8389607386960485, -0.5319573470891283, 0.38891521796784034, 2.375282946215072, 1.558489380797087, -15.94355721647977]
+1678668456447; SmartDashboard; Pose (LimeLight); (5.839, -0.532, -15.9 degrees)
+1678668456448; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.2 degrees)
+1678668456548; limelight; botpose; [5.840473908320943, -0.5287194225505083, 0.37813042889102816, 2.314897610407323, 1.1742994636627468, -16.07556384973595]
+1678668456548; SmartDashboard; Pose (LimeLight); (5.840, -0.529, -16.1 degrees)
+1678668456648; limelight; botpose; [5.83902718173214, -0.5300275363780506, 0.37626577781800064, 2.3667975375067463, 1.09256225869375, -16.00778300143296]
+1678668456648; SmartDashboard; Pose (LimeLight); (5.839, -0.530, -16.0 degrees)
+1678668456648; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.1 degrees)
+1678668456769; limelight; botpose; [5.8423035303195325, -0.5312889221618584, 0.36612080660858876, 2.357572958406562, 0.718486499733527, -16.005773985262824]
+1678668456769; SmartDashboard; Pose (LimeLight); (5.842, -0.531, -16.0 degrees)
+1678668456770; SmartDashboard; Pose (Estimated); (5.842, -0.528, -16.1 degrees)
+1678668456848; limelight; botpose; [5.837444746416676, -0.5326006272579286, 0.38859582051327163, 2.3244964195300146, 1.5537923806285847, -15.90350138057035]
+1678668456848; SmartDashboard; Pose (LimeLight); (5.837, -0.533, -15.9 degrees)
+1678668456848; SmartDashboard; Pose (Estimated); (5.841, -0.528, -16.1 degrees)
+1678668456948; limelight; botpose; [5.840928924701421, -0.5309649078224208, 0.3722970211905304, 2.4666114383836337, 0.9198012634247561, -15.993520339829324]
+1678668456949; SmartDashboard; Pose (LimeLight); (5.841, -0.531, -16.0 degrees)
+1678668456949; SmartDashboard; Pose (Estimated); (5.842, -0.528, -16.1 degrees)
+1678668457049; limelight; botpose; [5.843368853244633, -0.5241025965819256, 0.3667358282330394, 2.3635990644964346, 0.742713667495906, -16.26791683142387]
+1678668457049; SmartDashboard; Pose (LimeLight); (5.843, -0.524, -16.3 degrees)
+1678668457150; limelight; botpose; [5.843906130287988, -0.5265809223064416, 0.36225932966575203, 2.2769552561109885, 0.5889157928622829, -16.191199041816756]
+1678668457150; SmartDashboard; Pose (LimeLight); (5.844, -0.527, -16.2 degrees)
+1678668457150; SmartDashboard; Pose (Estimated); (5.842, -0.527, -16.1 degrees)
+1678668457249; limelight; botpose; [5.835508693348447, -0.5334749579532655, 0.3959623175108241, 2.434974176019869, 1.808199281929039, -15.845476113849202]
+1678668457250; SmartDashboard; Pose (LimeLight); (5.836, -0.533, -15.8 degrees)
+1678668457250; SmartDashboard; Pose (Estimated); (5.841, -0.528, -16.1 degrees)
+1678668457349; limelight; botpose; [5.83132617218778, -0.537531733606859, 0.40103619685533437, 2.419399592977091, 1.993661010349569, -15.650758425495958]
+1678668457350; SmartDashboard; Pose (LimeLight); (5.831, -0.538, -15.7 degrees)
+1678668457350; SmartDashboard; Pose (Estimated); (5.839, -0.529, -16.3 degrees)
+1678668457350; SmartDashboard; Wheel Encoder Positions; (0.000, -0.003)
+1678668457495; SmartDashboard; Pose (Estimated); (5.834, -0.527, -17.1 degrees)
+1678668457496; SmartDashboard; Wheel Encoder Positions; (0.000, -0.013)
+1678668453655; SmartDashboard; Target ID; 
+1678668457496; limelight; botpose; [5.838115571547492, -0.5304984831758753, 0.3829937890633237, 2.375028907990161, 1.3418354442367324, -15.990172208901086]
+1678668457496; SmartDashboard; Pose (LimeLight); (5.838, -0.530, -16.0 degrees)
+1678668457550; limelight; botpose; [5.83992746289457, -0.5294820547300906, 0.35291340419867046, 2.3414823447300375, 0.22583632622808925, -16.10714599834674]
+1678668457551; SmartDashboard; Pose (Estimated); (5.828, -0.526, -18.2 degrees)
+1678668457551; SmartDashboard; Pose (LimeLight); (5.840, -0.529, -16.1 degrees)
+1678668457551; SmartDashboard; Wheel Encoder Positions; (0.000, -0.026)
+1678668457649; limelight; botpose; [5.839721651609227, -0.5268056370733115, 0.3772081103686667, 2.2914039649687674, 1.0926271168351294, -16.309651698879694]
+1678668457650; SmartDashboard; Pose (LimeLight); (5.840, -0.527, -16.3 degrees)
+1678668457650; SmartDashboard; Pose (Estimated); (5.820, -0.523, -19.7 degrees)
+1678668457650; SmartDashboard; Wheel Encoder Positions; (0.000, -0.046)
+1678668457779; limelight; botpose; [5.826983702631255, -0.519605005992465, 0.3454159584618974, 2.4007398506934154, -0.10046182420252268, -16.75825146266549]
+1678668457779; SmartDashboard; Pose (LimeLight); (5.827, -0.520, -16.8 degrees)
+1678668457779; SmartDashboard; Pose (Estimated); (5.813, -0.519, -20.8 degrees)
+1678668457779; SmartDashboard; Wheel Encoder Positions; (0.000, -0.067)
+1678668457851; SmartDashboard; Pose (Estimated); (5.804, -0.515, -22.4 degrees)
+1678668457851; SmartDashboard; Wheel Encoder Positions; (0.000, -0.091)
+1678668457851; limelight; botpose; [5.808221776470623, -0.5236882522642993, 0.36155560739550174, 2.5992231992496535, 0.506097474736872, -16.791921868612945]
+1678668457966; SmartDashboard; Pose (Estimated); (5.793, -0.510, -23.9 degrees)
+1678668457967; SmartDashboard; Wheel Encoder Positions; (0.000, -0.116)
+1678668457967; limelight; botpose; [5.79952902504979, -0.5124976657078971, 0.3616988783935372, 2.494439341112622, 0.5158016914583997, -17.484087181725705]
+1678668457967; SmartDashboard; Pose (LimeLight); (5.800, -0.512, -17.5 degrees)
+1678668458052; SmartDashboard; Pose (Estimated); (5.783, -0.506, -25.4 degrees)
+1678668458053; SmartDashboard; Wheel Encoder Positions; (0.000, -0.141)
+1678668458053; limelight; botpose; [5.779051407823526, -0.5160313273557763, 0.36742113765308, 2.555805241131163, 0.7383342623478882, -17.54624263112567]
+1678668458153; SmartDashboard; Pose (Estimated); (5.770, -0.501, -26.7 degrees)
+1678668458153; SmartDashboard; Wheel Encoder Positions; (0.000, -0.166)
+1678668458153; limelight; botpose; [5.767852706537888, -0.5167135970770349, 0.3802404586695514, 2.4551036051754336, 1.2096959650822117, -17.66213265047422]
+1678668458153; SmartDashboard; Pose (LimeLight); (5.768, -0.517, -17.7 degrees)
+1678668458253; SmartDashboard; Pose (Estimated); (5.760, -0.496, -27.8 degrees)
+1678668458253; SmartDashboard; Wheel Encoder Positions; (0.000, -0.188)
+1678668458253; limelight; botpose; [5.764962784819348, -0.49857232280539904, 0.3432969867191442, 2.7309618139263034, -0.07971539182457398, -18.758633633166102]
+1678668458253; SmartDashboard; Pose (LimeLight); (5.765, -0.499, -18.8 degrees)
+1678668458359; SmartDashboard; Pose (Estimated); (5.748, -0.493, -28.9 degrees)
+1678668458360; SmartDashboard; Wheel Encoder Positions; (0.000, -0.212)
+1678668458360; limelight; botpose; [5.732579724587336, -0.5145879787750779, 0.3528605433129545, 2.6978033929789826, 0.2931726941409383, -18.417384091278304]
+1678668458360; SmartDashboard; Pose (LimeLight); (5.733, -0.515, -18.4 degrees)
+1678668458544; SmartDashboard; Pose (Estimated); (5.733, -0.489, -29.9 degrees)
+1678668458544; SmartDashboard; Wheel Encoder Positions; (0.000, -0.236)
+1678668458544; limelight; botpose; [5.684391955503814, -0.5103570909453446, 0.35527985927550343, 2.5094246379148935, 0.4677395399464301, -18.793581884807438]
+1678668458544; SmartDashboard; Pose (LimeLight); (5.684, -0.510, -18.8 degrees)
+1678668458574; SmartDashboard; Pose (Estimated); (5.714, -0.487, -29.5 degrees)
+1678668458574; SmartDashboard; Wheel Encoder Positions; (0.000, -0.256)
+1678668458574; limelight; botpose; [5.672624503381893, -0.4961471934120233, 0.3404138259039625, 2.5637902112714106, -0.04574355234621811, -19.389360049886722]
+1678668458574; SmartDashboard; Pose (LimeLight); (5.673, -0.496, -19.4 degrees)
+1678668458653; SmartDashboard; Pose (Estimated); (5.699, -0.484, -30.3 degrees)
+1678668458653; SmartDashboard; Wheel Encoder Positions; (0.000, -0.279)
+1678668458653; limelight; botpose; [5.653803095047536, -0.5079623746723905, 0.3550509912629475, 2.524097073049149, 0.4363065906951777, -18.970322494802634]
+1678668458653; SmartDashboard; Pose (LimeLight); (5.654, -0.508, -19.0 degrees)
+1678668458753; SmartDashboard; Pose (Estimated); (5.684, -0.480, -31.1 degrees)
+1678668458753; SmartDashboard; Wheel Encoder Positions; (0.000, -0.302)
+1678668458753; limelight; botpose; [5.63793423733835, -0.4996226030297996, 0.3648946842185509, 2.406509839819115, 0.7953907784372478, -19.253864524305694]
+1678668458753; SmartDashboard; Pose (LimeLight); (5.638, -0.500, -19.3 degrees)
+1678668458853; SmartDashboard; Pose (Estimated); (5.668, -0.474, -32.2 degrees)
+1678668458853; SmartDashboard; Wheel Encoder Positions; (0.000, -0.327)
+1678668458854; limelight; botpose; [5.633816068471092, -0.47882158308794337, 0.3594730157409545, 2.5702467828211653, 0.6051727282479274, -20.024317015082303]
+1678668458854; SmartDashboard; Pose (LimeLight); (5.634, -0.479, -20.0 degrees)
+1678668458954; SmartDashboard; Pose (Estimated); (5.652, -0.467, -33.3 degrees)
+1678668458955; SmartDashboard; Wheel Encoder Positions; (0.000, -0.354)
+1678668458955; limelight; botpose; [5.615227875761734, -0.47680648804965853, 0.35277974023696157, 2.6590508796766534, 0.3989544780064772, -20.174836520136456]
+1678668458955; SmartDashboard; Pose (LimeLight); (5.615, -0.477, -20.2 degrees)
+1678668459055; SmartDashboard; Pose (Estimated); (5.636, -0.460, -34.2 degrees)
+1678668459055; SmartDashboard; Wheel Encoder Positions; (0.000, -0.380)
+1678668459055; limelight; botpose; [5.600026690452237, -0.4686056219915326, 0.35456884184516024, 2.5633844608410623, 0.4957987358691766, -20.73152279582639]
+1678668459055; SmartDashboard; Pose (LimeLight); (5.600, -0.469, -20.7 degrees)
+1678668459156; SmartDashboard; Pose (Estimated); (5.620, -0.453, -35.2 degrees)
+1678668459156; SmartDashboard; Wheel Encoder Positions; (0.000, -0.407)
+1678668459156; limelight; botpose; [5.584416351362752, -0.46331381324681, 0.35225093389828244, 2.583373076677353, 0.473214852086274, -21.21920022257017]
+1678668459156; SmartDashboard; Pose (LimeLight); (5.584, -0.463, -21.2 degrees)
+1678668459257; limelight; botpose; [5.561034238124597, -0.44182755838406956, 0.3286072731730668, 2.877880993350553, -0.20023096078607772, -22.54935215446435]
+1678668459258; SmartDashboard; Pose (LimeLight); (5.561, -0.442, -22.5 degrees)
+1678668459258; SmartDashboard; Pose (Estimated); (5.600, -0.447, -34.6 degrees)
+1678668459258; SmartDashboard; Wheel Encoder Positions; (0.000, -0.431)
+1678668459362; SmartDashboard; Pose (Estimated); (5.584, -0.442, -35.1 degrees)
+1678668459363; SmartDashboard; Wheel Encoder Positions; (0.000, -0.453)
+1678668459363; limelight; botpose; [5.522206913377284, -0.46030333721229144, 0.34047275519947456, 2.7504770146545527, 0.23168183733613237, -22.081355548327632]
+1678668459363; SmartDashboard; Pose (LimeLight); (5.522, -0.460, -22.1 degrees)
+1678668459456; SmartDashboard; Pose (Estimated); (5.568, -0.437, -35.8 degrees)
+1678668459456; SmartDashboard; Wheel Encoder Positions; (0.000, -0.475)
+1678668459456; limelight; botpose; [5.509390016260977, -0.44757865006981884, 0.34685901135686903, 2.806458809643198, 0.46976462809474784, -22.716427212157615]
+1678668459457; SmartDashboard; Pose (LimeLight); (5.509, -0.448, -22.7 degrees)
+1678668459592; SmartDashboard; Pose (Estimated); (5.551, -0.432, -36.3 degrees)
+1678668459592; SmartDashboard; Wheel Encoder Positions; (0.000, -0.498)
+1678668459592; limelight; botpose; [5.48537985111728, -0.4529192989404272, 0.3638987715993745, 2.8084741196996728, 0.9955104754177877, -22.635946141168066]
+1678668459592; SmartDashboard; Pose (LimeLight); (5.485, -0.453, -22.6 degrees)
+1678668459657; SmartDashboard; Pose (Estimated); (5.536, -0.426, -36.8 degrees)
+1678668459657; SmartDashboard; Wheel Encoder Positions; (0.000, -0.518)
+1678668459658; limelight; botpose; [5.480162639808507, -0.43189404581173935, 0.35556801899447926, 2.7392220388378994, 0.7689882780715493, -23.54975939641954]
+1678668459658; SmartDashboard; Pose (LimeLight); (5.480, -0.432, -23.5 degrees)
+1678668459756; SmartDashboard; Pose (Estimated); (5.522, -0.421, -37.2 degrees)
+1678668459757; SmartDashboard; Wheel Encoder Positions; (0.000, -0.538)
+1678668459757; limelight; botpose; [5.46614926184887, -0.42517687721382563, 0.35388623277972614, 2.859017319033131, 0.7626029998924542, -24.085973135212907]
+1678668459757; SmartDashboard; Pose (LimeLight); (5.466, -0.425, -24.1 degrees)
+1678668459855; SmartDashboard; Pose (Estimated); (5.506, -0.416, -37.5 degrees)
+1678668459856; SmartDashboard; Wheel Encoder Positions; (0.000, -0.557)
+1678668459856; limelight; botpose; [5.4398155030629125, -0.4344292092032821, 0.38443582357153755, 2.665942922252554, 1.6812334695340396, -24.01659282000414]
+1678668459856; SmartDashboard; Pose (LimeLight); (5.440, -0.434, -24.0 degrees)
+1678668459955; limelight; botpose; [5.419049174558371, -0.4255976793665964, 0.3785889948436627, 2.5880246931514264, 1.5132906082591564, -24.505647781668117]
+1678668459956; SmartDashboard; Pose (LimeLight); (5.419, -0.426, -24.5 degrees)
+1678668459956; SmartDashboard; Pose (Estimated); (5.485, -0.411, -36.7 degrees)
+1678668459956; SmartDashboard; Wheel Encoder Positions; (0.000, -0.577)
+1678668460061; SmartDashboard; Pose (Estimated); (5.469, -0.406, -37.2 degrees)
+1678668460061; SmartDashboard; Wheel Encoder Positions; (0.000, -0.598)
+1678668460061; limelight; botpose; [5.403726825646789, -0.4180810989413721, 0.3778538240996894, 2.612928201500939, 1.546689715416147, -24.802742625669108]
+1678668460061; SmartDashboard; Pose (LimeLight); (5.404, -0.418, -24.8 degrees)
+1678668460169; SmartDashboard; Pose (Estimated); (5.453, -0.403, -37.5 degrees)
+1678668460169; SmartDashboard; Wheel Encoder Positions; (0.000, -0.617)
+1678668460169; limelight; botpose; [5.3838595012626005, -0.4301034690707965, 0.36998747100552476, 2.6847778813243934, 1.3088735817212171, -24.418357196598343]
+1678668460169; SmartDashboard; Pose (LimeLight); (5.384, -0.430, -24.4 degrees)
+1678668460258; SmartDashboard; Pose (Estimated); (5.438, -0.398, -37.9 degrees)
+1678668460258; SmartDashboard; Wheel Encoder Positions; (0.000, -0.637)
+1678668460258; limelight; botpose; [5.380097027164135, -0.4105471685786319, 0.34253690854324864, 2.8315409548210755, 0.5214996266728483, -25.072275164863587]
+1678668460259; SmartDashboard; Pose (LimeLight); (5.380, -0.411, -25.1 degrees)
+1678668460371; SmartDashboard; Pose (Estimated); (5.424, -0.394, -38.2 degrees)
+1678668460372; SmartDashboard; Wheel Encoder Positions; (0.000, -0.655)
+1678668460372; limelight; botpose; [5.360701893228365, -0.3847089959300113, 0.3496689634586406, 2.8925514462339215, 0.7487247041764363, -26.06107852560557]
+1678668460372; SmartDashboard; Pose (LimeLight); (5.361, -0.385, -26.1 degrees)
+1678668460457; SmartDashboard; Pose (Estimated); (5.412, -0.389, -38.2 degrees)
+1678668460458; SmartDashboard; Wheel Encoder Positions; (0.000, -0.669)
+1678668460458; limelight; botpose; [5.353317411016083, -0.38131342069254526, 0.3582706713854554, 3.016895222589842, 1.0076141605131623, -26.156938896524526]
+1678668460458; SmartDashboard; Pose (LimeLight); (5.353, -0.381, -26.2 degrees)
+1678668460641; SmartDashboard; Pose (Estimated); (5.396, -0.385, -36.6 degrees)
+1678668460641; SmartDashboard; Wheel Encoder Positions; (0.000, -0.677)
+1678668460641; limelight; botpose; [5.333555672765418, -0.37686276727887175, 0.3680004227644086, 2.6926072382868798, 1.2651265393939324, -26.192141821410253]
+1678668460641; SmartDashboard; Pose (LimeLight); (5.334, -0.377, -26.2 degrees)
+1678668460658; SmartDashboard; Pose (Estimated); (5.384, -0.384, -36.0 degrees)
+1678668460658; SmartDashboard; Wheel Encoder Positions; (0.000, -0.684)
+1678668460658; limelight; botpose; [5.303212486555275, -0.3979653726641719, 0.37978657869610144, 2.5362219889452966, 1.5672105168554185, -25.34260210995919]
+1678668460658; SmartDashboard; Pose (LimeLight); (5.303, -0.398, -25.3 degrees)
+1678668460758; SmartDashboard; Pose (Estimated); (5.373, -0.381, -35.7 degrees)
+1678668460758; SmartDashboard; Wheel Encoder Positions; (0.000, -0.693)
+1678668460758; limelight; botpose; [5.30478679833074, -0.3776206042664367, 0.38707949489006654, 2.53399288372452, 1.7268759565583702, -25.738997376678796]
+1678668460759; SmartDashboard; Pose (LimeLight); (5.305, -0.378, -25.7 degrees)
+1678668460860; SmartDashboard; Pose (Estimated); (5.362, -0.379, -35.3 degrees)
+1678668460861; SmartDashboard; Wheel Encoder Positions; (0.000, -0.700)
+1678668460861; limelight; botpose; [5.296217846911234, -0.3769952139541918, 0.3772517318755407, 2.8134804357646392, 1.462688614145194, -25.491819162823933]
+1678668460861; SmartDashboard; Pose (LimeLight); (5.296, -0.377, -25.5 degrees)
+1678668460958; SmartDashboard; Pose (Estimated); (5.352, -0.375, -35.2 degrees)
+1678668460958; SmartDashboard; Wheel Encoder Positions; (0.000, -0.709)
+1678668460958; limelight; botpose; [5.297672945320433, -0.36553773357982117, 0.3545094125317865, 2.7839760615637386, 0.8560004990135369, -25.811835559579322]
+1678668460958; SmartDashboard; Pose (LimeLight); (5.298, -0.366, -25.8 degrees)
+1678668461058; SmartDashboard; Pose (Estimated); (5.344, -0.372, -34.7 degrees)
+1678668461058; SmartDashboard; Wheel Encoder Positions; (0.000, -0.715)
+1678668461058; limelight; botpose; [5.284286039501269, -0.3632087025415988, 0.40395499144668123, 2.296490413067149, 2.171533833748956, -26.036014795180122]
+1678668461058; SmartDashboard; Pose (LimeLight); (5.284, -0.363, -26.0 degrees)
+1678668461157; SmartDashboard; Pose (Estimated); (5.330, -0.370, -33.4 degrees)
+1678668461158; SmartDashboard; Wheel Encoder Positions; (0.000, -0.719)
+1678668461158; limelight; botpose; [5.274565273138282, -0.36905652319741405, 0.344376117254579, 3.156118237263713, 0.6212332381520292, -25.74865557480662]
+1678668461158; SmartDashboard; Pose (LimeLight); (5.275, -0.369, -25.7 degrees)
+1678668461271; SmartDashboard; Pose (Estimated); (5.325, -0.367, -32.8 degrees)
+1678668461271; SmartDashboard; Wheel Encoder Positions; (0.000, -0.720)
+1678668461271; limelight; botpose; [5.280731941431573, -0.3480802688441606, 0.3628721660594957, 2.7151749649079098, 1.0989415058898284, -26.319859219809143]
+1678668461271; SmartDashboard; Pose (LimeLight); (5.281, -0.348, -26.3 degrees)
+1678668461358; limelight; botpose; [5.280819669895636, -0.3442404996808349, 0.34319428463355867, 3.025818734770595, 0.5913789664663655, -26.355313333118232]
+1678668461358; SmartDashboard; Pose (LimeLight); (5.281, -0.344, -26.4 degrees)
+1678668461358; SmartDashboard; Pose (Estimated); (5.320, -0.365, -32.1 degrees)
+1678668461457; limelight; botpose; [5.2650914274172065, -0.36229087277394345, 0.3680394805173723, 2.680590886462842, 1.2497009391522653, -25.797047283791006]
+1678668461457; SmartDashboard; Pose (LimeLight); (5.265, -0.362, -25.8 degrees)
+1678668461457; SmartDashboard; Pose (Estimated); (5.315, -0.365, -31.5 degrees)
+1678668461557; limelight; botpose; [5.273314704194401, -0.35250902741074347, 0.36843631765182355, 2.6485465192428985, 1.2552689154405747, -26.124287622173586]
+1678668461558; SmartDashboard; Pose (LimeLight); (5.273, -0.353, -26.1 degrees)
+1678668461558; SmartDashboard; Pose (Estimated); (5.311, -0.363, -31.0 degrees)
+1678668461689; limelight; botpose; [5.269844210905203, -0.34955186143985184, 0.36486612167683374, 2.6312362244637404, 1.1868624628035989, -26.170570905547244]
+1678668461690; SmartDashboard; Pose (LimeLight); (5.270, -0.350, -26.2 degrees)
+1678668461690; SmartDashboard; Pose (Estimated); (5.307, -0.361, -30.5 degrees)
+1678668461758; SmartDashboard; Pose (Estimated); (5.300, -0.360, -29.7 degrees)
+1678668461758; limelight; botpose; [5.267670110837314, -0.35929493040373306, 0.38378723571659257, 2.6660695207590477, 1.6798082350763703, -25.89968251411101]
+1678668461758; SmartDashboard; Pose (LimeLight); (5.268, -0.359, -25.9 degrees)
+1678668461858; limelight; botpose; [5.269298578167538, -0.3566781917218676, 0.3599188190126475, 2.6758572501688267, 1.0480079000571119, -25.983981285176103]
+1678668461858; SmartDashboard; Pose (LimeLight); (5.269, -0.357, -26.0 degrees)
+1678668461858; SmartDashboard; Pose (Estimated); (5.297, -0.360, -29.3 degrees)
+1678668461957; limelight; botpose; [5.270587525514283, -0.3517798732147508, 0.3735043731982412, 2.8389310112649704, 1.4092521813060874, -26.12275433293094]
+1678668461958; SmartDashboard; Pose (LimeLight); (5.271, -0.352, -26.1 degrees)
+1678668461958; SmartDashboard; Pose (Estimated); (5.294, -0.359, -29.0 degrees)
+1678668462058; SmartDashboard; Pose (Estimated); (5.294, -0.360, -28.1 degrees)
+1678668462058; SmartDashboard; Wheel Encoder Positions; (0.000, -0.714)
+1678668462058; limelight; botpose; [5.266037894959566, -0.35827415679757035, 0.36214457118783705, 2.7752118957692473, 1.1101240726128752, -25.976844923290116]
+1678668462058; SmartDashboard; Pose (LimeLight); (5.266, -0.358, -26.0 degrees)
+1678668462158; SmartDashboard; Pose (Estimated); (5.299, -0.364, -26.6 degrees)
+1678668462158; SmartDashboard; Wheel Encoder Positions; (0.000, -0.698)
+1678668462158; limelight; botpose; [5.2742647147063835, -0.36372855189087533, 0.3369653247287887, 3.0156932346267977, 0.4379981737267706, -25.971381119822826]
+1678668462158; SmartDashboard; Pose (LimeLight); (5.274, -0.364, -26.0 degrees)
+1678668462258; limelight; botpose; [5.317544035902877, -0.3371010563649283, 0.30638712554646536, 3.47099095155475, -0.3543053449646798, -27.857512558337845]
+1678668462258; SmartDashboard; Pose (Estimated); (5.306, -0.364, -25.4 degrees)
+1678668462258; SmartDashboard; Wheel Encoder Positions; (0.000, -0.681)
+1678668462258; SmartDashboard; Pose (LimeLight); (5.318, -0.337, -27.9 degrees)
+1678668462357; SmartDashboard; Pose (Estimated); (5.314, -0.365, -24.3 degrees)
+1678668462358; SmartDashboard; Wheel Encoder Positions; (0.000, -0.665)
+1678668462358; limelight; botpose; [5.355463230772126, -0.32156586595465403, 0.2931123859673842, 3.871173170417234, -0.5627641215023858, -30.00295919135463]
+1678668462457; SmartDashboard; Pose (Estimated); (5.323, -0.369, -22.5 degrees)
+1678668462458; SmartDashboard; Wheel Encoder Positions; (0.000, -0.645)
+1678668462458; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668462458; SmartDashboard; Pose (LimeLight); null
+1678668462558; SmartDashboard; Pose (Estimated); (5.341, -0.371, -22.0 degrees)
+1678668462558; SmartDashboard; Wheel Encoder Positions; (0.000, -0.624)
+1678668462558; limelight; botpose; [5.407552131587105, -0.3528843453326446, 0.2860479388604605, 4.361317511439582, -0.398518695814971, -34.422659370408425]
+1678668462558; SmartDashboard; Pose (LimeLight); (5.408, -0.353, -34.4 degrees)
+1678668462740; SmartDashboard; Pose (Estimated); (5.360, -0.374, -21.5 degrees)
+1678668462741; SmartDashboard; Wheel Encoder Positions; (0.000, -0.602)
+1678668462741; limelight; botpose; [5.4321223890653805, -0.3588816057922569, 0.2678041230240012, 4.837878583528245, -0.7114561288682903, -36.01848171461358]
+1678668462741; SmartDashboard; Pose (LimeLight); (5.432, -0.359, -36.0 degrees)
+1678668462757; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668462757; SmartDashboard; Pose (Estimated); (5.383, -0.376, -21.4 degrees)
+1678668462757; SmartDashboard; Wheel Encoder Positions; (0.000, -0.580)
+1678668462757; SmartDashboard; Pose (LimeLight); null
+1678668462863; SmartDashboard; Pose (Estimated); (5.393, -0.380, -19.4 degrees)
+1678668462863; SmartDashboard; Wheel Encoder Positions; (0.000, -0.557)
+1678668462972; SmartDashboard; Pose (Estimated); (5.405, -0.384, -17.3 degrees)
+1678668462972; SmartDashboard; Wheel Encoder Positions; (0.000, -0.534)
+1678668463058; SmartDashboard; Pose (Estimated); (5.416, -0.387, -15.3 degrees)
+1678668463059; SmartDashboard; Wheel Encoder Positions; (0.000, -0.510)
+1678668463159; SmartDashboard; Pose (Estimated); (5.427, -0.390, -13.3 degrees)
+1678668463159; SmartDashboard; Wheel Encoder Positions; (0.000, -0.488)
+1678668463259; SmartDashboard; Pose (Estimated); (5.437, -0.392, -11.5 degrees)
+1678668463259; SmartDashboard; Wheel Encoder Positions; (0.000, -0.467)
+1678668463359; SmartDashboard; Pose (Estimated); (5.447, -0.394, -9.7 degrees)
+1678668463359; SmartDashboard; Wheel Encoder Positions; (0.000, -0.447)
+1678668463460; SmartDashboard; Pose (Estimated); (5.458, -0.396, -7.7 degrees)
+1678668463460; SmartDashboard; Wheel Encoder Positions; (0.000, -0.424)
+1678668463558; SmartDashboard; Pose (Estimated); (5.465, -0.397, -6.4 degrees)
+1678668463558; SmartDashboard; Wheel Encoder Positions; (0.000, -0.410)
+1678668463659; SmartDashboard; Pose (Estimated); (5.474, -0.398, -4.8 degrees)
+1678668463659; SmartDashboard; Wheel Encoder Positions; (0.000, -0.392)
+1678668463786; SmartDashboard; Pose (Estimated); (5.483, -0.399, -3.2 degrees)
+1678668463786; SmartDashboard; Wheel Encoder Positions; (0.000, -0.373)
+1678668463887; SmartDashboard; Pose (Estimated); (5.493, -0.399, -1.5 degrees)
+1678668463888; SmartDashboard; Wheel Encoder Positions; (0.000, -0.354)
+1678668463985; SmartDashboard; Pose (Estimated); (5.502, -0.399, 0.1 degrees)
+1678668463985; SmartDashboard; Wheel Encoder Positions; (0.000, -0.336)
+1678668464060; SmartDashboard; Pose (Estimated); (5.511, -0.399, 1.7 degrees)
+1678668464060; SmartDashboard; Wheel Encoder Positions; (0.000, -0.318)
+1678668464160; SmartDashboard; Pose (Estimated); (5.519, -0.399, 3.1 degrees)
+1678668464160; SmartDashboard; Wheel Encoder Positions; (0.000, -0.301)
+1678668464265; SmartDashboard; Pose (Estimated); (5.526, -0.398, 4.4 degrees)
+1678668464265; SmartDashboard; Wheel Encoder Positions; (0.000, -0.287)
+1678668464359; SmartDashboard; Pose (Estimated); (5.534, -0.398, 5.7 degrees)
+1678668464360; SmartDashboard; Wheel Encoder Positions; (0.000, -0.272)
+1678668464466; SmartDashboard; Pose (Estimated); (5.541, -0.397, 6.9 degrees)
+1678668464466; SmartDashboard; Wheel Encoder Positions; (0.000, -0.258)
+1678668464560; SmartDashboard; Pose (Estimated); (5.548, -0.396, 8.2 degrees)
+1678668464561; SmartDashboard; Wheel Encoder Positions; (0.000, -0.244)
+1678668464660; SmartDashboard; Pose (Estimated); (5.553, -0.395, 9.0 degrees)
+1678668464660; SmartDashboard; Wheel Encoder Positions; (0.000, -0.234)
+1678668464834; SmartDashboard; Pose (Estimated); (5.557, -0.394, 9.9 degrees)
+1678668464835; SmartDashboard; Wheel Encoder Positions; (0.000, -0.224)
+1678668464860; SmartDashboard; Pose (Estimated); (5.563, -0.393, 10.9 degrees)
+1678668464860; SmartDashboard; Wheel Encoder Positions; (0.000, -0.213)
+1678668464960; SmartDashboard; Pose (Estimated); (5.568, -0.392, 11.8 degrees)
+1678668464960; SmartDashboard; Wheel Encoder Positions; (0.000, -0.202)
+1678668465059; SmartDashboard; Pose (Estimated); (5.573, -0.391, 12.7 degrees)
+1678668465060; SmartDashboard; Wheel Encoder Positions; (0.000, -0.192)
+1678668465161; SmartDashboard; Pose (Estimated); (5.578, -0.390, 13.6 degrees)
+1678668465161; SmartDashboard; Wheel Encoder Positions; (0.000, -0.183)
+1678668465260; SmartDashboard; Pose (Estimated); (5.581, -0.389, 14.2 degrees)
+1678668465260; SmartDashboard; Wheel Encoder Positions; (0.000, -0.176)
+1678668465359; SmartDashboard; Pose (Estimated); (5.583, -0.389, 14.5 degrees)
+1678668465359; SmartDashboard; Wheel Encoder Positions; (0.000, -0.171)
+1678668465777; SmartDashboard; Pose (Estimated); (5.580, -0.390, 13.9 degrees)
+1678668465777; SmartDashboard; Wheel Encoder Positions; (0.000, -0.178)
+1678668465882; SmartDashboard; Pose (Estimated); (5.575, -0.391, 12.9 degrees)
+1678668465882; SmartDashboard; Wheel Encoder Positions; (0.000, -0.190)
+1678668465961; SmartDashboard; Pose (Estimated); (5.570, -0.392, 12.1 degrees)
+1678668465961; SmartDashboard; Wheel Encoder Positions; (0.000, -0.199)
+1678668466061; SmartDashboard; Pose (Estimated); (5.566, -0.393, 11.3 degrees)
+1678668466061; SmartDashboard; Wheel Encoder Positions; (0.000, -0.208)
+1678668466162; SmartDashboard; Pose (Estimated); (5.562, -0.394, 10.6 degrees)
+1678668466162; SmartDashboard; Wheel Encoder Positions; (0.000, -0.216)
+1678668466261; SmartDashboard; Pose (Estimated); (5.557, -0.395, 9.9 degrees)
+1678668466261; SmartDashboard; Wheel Encoder Positions; (0.000, -0.224)
+1678668466361; SmartDashboard; Pose (Estimated); (5.553, -0.395, 9.0 degrees)
+1678668466361; SmartDashboard; Wheel Encoder Positions; (0.000, -0.234)
+1678668466470; SmartDashboard; Pose (Estimated); (5.548, -0.396, 8.2 degrees)
+1678668466470; SmartDashboard; Wheel Encoder Positions; (0.000, -0.244)
+1678668466584; SmartDashboard; Pose (Estimated); (5.543, -0.397, 7.3 degrees)
+1678668466584; SmartDashboard; Wheel Encoder Positions; (0.000, -0.254)
+1678668466662; SmartDashboard; Pose (Estimated); (5.538, -0.397, 6.4 degrees)
+1678668466663; SmartDashboard; Wheel Encoder Positions; (0.000, -0.263)
+1678668466763; SmartDashboard; Pose (Estimated); (5.533, -0.398, 5.5 degrees)
+1678668466763; SmartDashboard; Wheel Encoder Positions; (0.000, -0.275)
+1678668466932; SmartDashboard; Pose (Estimated); (5.528, -0.398, 4.6 degrees)
+1678668466932; SmartDashboard; Wheel Encoder Positions; (0.000, -0.284)
+1678668466962; SmartDashboard; Pose (Estimated); (5.524, -0.399, 3.9 degrees)
+1678668466963; SmartDashboard; Wheel Encoder Positions; (0.000, -0.293)
+1678668467063; SmartDashboard; Pose (Estimated); (5.519, -0.399, 3.1 degrees)
+1678668467063; SmartDashboard; Wheel Encoder Positions; (0.000, -0.301)
+1678668467163; SmartDashboard; Pose (Estimated); (5.515, -0.399, 2.4 degrees)
+1678668467163; SmartDashboard; Wheel Encoder Positions; (0.000, -0.309)
+1678668467264; SmartDashboard; Pose (Estimated); (5.512, -0.399, 1.8 degrees)
+1678668467264; SmartDashboard; Wheel Encoder Positions; (0.000, -0.316)
+1678668467362; SmartDashboard; Pose (Estimated); (5.508, -0.399, 1.0 degrees)
+1678668467363; SmartDashboard; Wheel Encoder Positions; (0.000, -0.325)
+1678668467463; SmartDashboard; Pose (Estimated); (5.503, -0.399, 0.3 degrees)
+1678668467463; SmartDashboard; Wheel Encoder Positions; (0.000, -0.333)
+1678668467562; SmartDashboard; Pose (Estimated); (5.500, -0.399, -0.3 degrees)
+1678668467563; SmartDashboard; Wheel Encoder Positions; (0.000, -0.340)
+1678668467662; SmartDashboard; Pose (Estimated); (5.496, -0.399, -1.0 degrees)
+1678668467663; SmartDashboard; Wheel Encoder Positions; (0.000, -0.348)
+1678668467763; SmartDashboard; Pose (Estimated); (5.492, -0.399, -1.6 degrees)
+1678668467763; SmartDashboard; Wheel Encoder Positions; (0.000, -0.355)
+1678668467863; SmartDashboard; Pose (Estimated); (5.492, -0.399, -1.8 degrees)
+1678668467863; SmartDashboard; Wheel Encoder Positions; (0.000, -0.357)
+1678668468162; SmartDashboard; Pose (Estimated); (5.491, -0.399, -1.9 degrees)
+1678668468163; SmartDashboard; Wheel Encoder Positions; (0.000, -0.358)
+1678668468271; SmartDashboard; Pose (Estimated); (5.489, -0.399, -2.1 degrees)
+1678668468271; SmartDashboard; Wheel Encoder Positions; (0.000, -0.361)
+1678668468365; SmartDashboard; Pose (Estimated); (5.491, -0.426, -5.6 degrees)
+1678668468365; SmartDashboard; Wheel Encoder Positions; (0.000, -0.365)
+1678668468365; limelight; botpose; [5.525834705201797, -0.66499923963886, 0.43129245375476855, 1.3321555719800935, 3.7502206461574867, -33.01534535204321]
+1678668468366; SmartDashboard; Pose (LimeLight); (5.526, -0.665, -33.0 degrees)
+1678668468462; SmartDashboard; Pose (Estimated); (5.492, -0.449, -8.2 degrees)
+1678668468463; SmartDashboard; Wheel Encoder Positions; (0.000, -0.368)
+1678668468463; limelight; botpose; [5.511116564989943, -0.6643477197386112, 0.4024261881744101, 2.1069800054949717, 2.838903225684164, -29.856073058017707]
+1678668468463; SmartDashboard; Pose (LimeLight); (5.511, -0.664, -29.9 degrees)
+1678668468564; SmartDashboard; Pose (Estimated); (5.492, -0.466, -10.5 degrees)
+1678668468564; SmartDashboard; Wheel Encoder Positions; (0.000, -0.371)
+1678668468564; limelight; botpose; [5.504284014164368, -0.6171266665693622, 0.43259397096207086, 1.6275713175729307, 3.5738342576842768, -28.30898471852854]
+1678668468564; SmartDashboard; Pose (LimeLight); (5.504, -0.617, -28.3 degrees)
+1678668468662; SmartDashboard; Pose (Estimated); (5.491, -0.477, -12.3 degrees)
+1678668468663; SmartDashboard; Wheel Encoder Positions; (0.000, -0.373)
+1678668468663; limelight; botpose; [5.493206791077225, -0.5748856002313898, 0.5367356767409504, 0.24740059835235745, 6.514286491935839, -26.557542855705805]
+1678668468663; SmartDashboard; Pose (LimeLight); (5.493, -0.575, -26.6 degrees)
+1678668468763; SmartDashboard; Pose (Estimated); (5.487, -0.482, -14.0 degrees)
+1678668468763; SmartDashboard; Wheel Encoder Positions; (0.000, -0.379)
+1678668468763; limelight; botpose; [5.483460836762007, -0.5398592482718849, 0.4876599130744396, 1.2015227000548698, 4.925613113783713, -24.24566490119865]
+1678668468763; SmartDashboard; Pose (LimeLight); (5.483, -0.540, -24.2 degrees)
+1678668468862; SmartDashboard; Pose (Estimated); (5.484, -0.485, -15.4 degrees)
+1678668468862; SmartDashboard; Wheel Encoder Positions; (0.000, -0.385)
+1678668468863; limelight; botpose; [5.479548234534769, -0.5200296139768518, 0.4970877813161609, 1.1858259947518899, 5.16311203636935, -23.12696976362032]
+1678668468863; SmartDashboard; Pose (LimeLight); (5.480, -0.520, -23.1 degrees)
+1678668469029; SmartDashboard; Pose (Estimated); (5.476, -0.488, -16.6 degrees)
+1678668469029; SmartDashboard; Wheel Encoder Positions; (0.000, -0.394)
+1678668469029; limelight; botpose; [5.446916852548576, -0.5282250089100391, 0.4395629922557118, 1.9829088066711857, 3.336649936341575, -19.11388514606086]
+1678668469029; SmartDashboard; Pose (LimeLight); (5.447, -0.528, -19.1 degrees)
+1678668469064; limelight; botpose; [5.399133487571397, -0.4381397456539265, 0.5010039987594385, 1.5428605753216456, 4.849129058478649, -13.22157575382682]
+1678668469064; SmartDashboard; Pose (Estimated); (5.470, -0.491, -17.4 degrees)
+1678668469064; SmartDashboard; Wheel Encoder Positions; (0.000, -0.401)
+1678668469064; SmartDashboard; Pose (LimeLight); (5.399, -0.438, -13.2 degrees)
+1678668469176; SmartDashboard; Pose (Estimated); (5.458, -0.485, -17.7 degrees)
+1678668469176; SmartDashboard; Wheel Encoder Positions; (0.000, -0.410)
+1678668469177; limelight; botpose; [5.3603083711858, -0.4399417502265404, 0.48696584626197964, 1.873878418131317, 4.151836276607903, -10.053475136299365]
+1678668469177; SmartDashboard; Pose (LimeLight); (5.360, -0.440, -10.1 degrees)
+1678668469291; SmartDashboard; Pose (Estimated); (5.445, -0.479, -17.6 degrees)
+1678668469291; SmartDashboard; Wheel Encoder Positions; (0.000, -0.417)
+1678668469291; limelight; botpose; [5.348386783517333, -0.3968367842166552, 0.4895703213237388, 1.9005858020652961, 4.018463822956452, -8.411664325386578]
+1678668469291; SmartDashboard; Pose (LimeLight); (5.348, -0.397, -8.4 degrees)
+1678668469365; SmartDashboard; Pose (Estimated); (5.432, -0.470, -17.3 degrees)
+1678668469365; SmartDashboard; Wheel Encoder Positions; (0.000, -0.424)
+1678668469365; limelight; botpose; [5.316767318279866, -0.4296354928168766, 0.5233070347517936, 2.069107599943669, 4.881947370576004, -5.930637792247598]
+1678668469465; SmartDashboard; Pose (Estimated); (5.405, -0.457, -15.6 degrees)
+1678668469465; SmartDashboard; Wheel Encoder Positions; (0.000, -0.431)
+1678668469465; limelight; botpose; [5.270899924617103, -0.4168798952931753, 0.48937454287504545, 2.073496821294352, 3.7234835573646072, -1.467519927288665]
+1678668469465; SmartDashboard; Pose (LimeLight); (5.271, -0.417, -1.5 degrees)
+1678668469565; SmartDashboard; Wheel Encoder Positions; (0.000, -0.432)
+1678668469565; limelight; botpose; [5.2638399153471935, -0.3597586886635485, 0.5085813750614333, 2.0287617980612933, 4.0686253644772865, 0.22188450541194238]
+1678668469565; SmartDashboard; Pose (LimeLight); (5.264, -0.360, 0.2 degrees)
+1678668469565; SmartDashboard; Pose (Estimated); (5.391, -0.447, -14.0 degrees)
+1678668469667; limelight; botpose; [5.281024880171946, -0.2600044670143088, 0.5244092847579261, 2.2061656184974536, 4.331680666486421, 0.6431209241536525]
+1678668469667; SmartDashboard; Pose (LimeLight); (5.281, -0.260, 0.6 degrees)
+1678668469667; SmartDashboard; Pose (Estimated); (5.380, -0.429, -12.5 degrees)
+1678668469765; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668469765; SmartDashboard; Pose (LimeLight); null
+1678668469874; SmartDashboard; Pose (Estimated); (5.379, -0.428, -12.7 degrees)
+1678668469964; SmartDashboard; Wheel Encoder Positions; (0.000, -0.442)
+1678668469964; SmartDashboard; Pose (Estimated); (5.374, -0.427, -13.5 degrees)
+1678668470078; SmartDashboard; Wheel Encoder Positions; (0.000, -0.450)
+1678668470078; SmartDashboard; Pose (Estimated); (5.370, -0.426, -14.3 degrees)
+1678668470165; SmartDashboard; Wheel Encoder Positions; (0.000, -0.458)
+1678668470166; SmartDashboard; Pose (Estimated); (5.366, -0.425, -15.1 degrees)
+1678668470265; SmartDashboard; Wheel Encoder Positions; (0.000, -0.467)
+1678668470265; SmartDashboard; Pose (Estimated); (5.362, -0.424, -15.7 degrees)
+1678668470365; SmartDashboard; Wheel Encoder Positions; (0.000, -0.471)
+1678668470365; SmartDashboard; Pose (Estimated); (5.361, -0.424, -16.0 degrees)
+1678668470465; SmartDashboard; Pose (Estimated); (5.360, -0.424, -16.1 degrees)
+1678668470465; SmartDashboard; Wheel Encoder Positions; (0.000, -0.472)
+1678668470765; SmartDashboard; Pose (Estimated); (5.361, -0.424, -16.0 degrees)
+1678668470876; SmartDashboard; Wheel Encoder Positions; (0.000, -0.461)
+1678668470876; SmartDashboard; Pose (Estimated); (5.366, -0.425, -15.1 degrees)
+1678668470966; SmartDashboard; Pose (Estimated); (5.372, -0.427, -13.9 degrees)
+1678668470966; SmartDashboard; Wheel Encoder Positions; (0.000, -0.450)
+1678668471126; SmartDashboard; Wheel Encoder Positions; (0.000, -0.433)
+1678668471126; SmartDashboard; Pose (Estimated); (5.379, -0.428, -12.7 degrees)
+1678668471166; SmartDashboard; Pose (Estimated); (5.387, -0.430, -11.3 degrees)
+1678668471166; SmartDashboard; Wheel Encoder Positions; (0.000, -0.418)
+1678668471267; SmartDashboard; Pose (Estimated); (5.395, -0.432, -9.7 degrees)
+1678668471267; SmartDashboard; Wheel Encoder Positions; (0.000, -0.400)
+1678668471267; limelight; botpose; [-0.20000000298023224, 0.0, -0.30000001192092896, 89.9999239850482, -89.9999239850482, 8.537736462515939E-7]
+1678668471267; SmartDashboard; Pose (LimeLight); (-0.200, 0.000, 0.0 degrees)
+1678668471366; SmartDashboard; Pose (Estimated); (5.405, -0.433, -8.0 degrees)
+1678668471367; SmartDashboard; Wheel Encoder Positions; (0.000, -0.380)
+1678668471467; SmartDashboard; Pose (Estimated); (5.415, -0.435, -6.3 degrees)
+1678668471467; SmartDashboard; Wheel Encoder Positions; (0.000, -0.361)
+1678668471467; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668471467; SmartDashboard; Pose (LimeLight); null
+1678668471593; SmartDashboard; Pose (Estimated); (5.426, -0.436, -4.3 degrees)
+1678668471593; SmartDashboard; Wheel Encoder Positions; (0.000, -0.339)
+1678668471669; SmartDashboard; Pose (Estimated); (5.438, -0.436, -2.2 degrees)
+1678668471669; SmartDashboard; Wheel Encoder Positions; (0.000, -0.315)
+1678668471778; SmartDashboard; Pose (Estimated); (5.450, -0.437, -0.2 degrees)
+1678668471778; SmartDashboard; Wheel Encoder Positions; (0.000, -0.291)
+1678668471890; SmartDashboard; Pose (Estimated); (5.460, -0.437, 1.7 degrees)
+1678668471891; SmartDashboard; Wheel Encoder Positions; (0.000, -0.270)
+1678668471968; SmartDashboard; Pose (Estimated); (5.469, -0.436, 3.3 degrees)
+1678668471968; SmartDashboard; Wheel Encoder Positions; (0.000, -0.252)
+1678668472068; SmartDashboard; Pose (Estimated); (5.479, -0.435, 5.0 degrees)
+1678668472068; SmartDashboard; Wheel Encoder Positions; (0.000, -0.233)
+1678668472175; SmartDashboard; Pose (Estimated); (5.489, -0.435, 6.7 degrees)
+1678668472175; SmartDashboard; Wheel Encoder Positions; (0.000, -0.213)
+1678668472269; SmartDashboard; Pose (Estimated); (5.499, -0.433, 8.5 degrees)
+1678668472269; SmartDashboard; Wheel Encoder Positions; (0.000, -0.192)
+1678668472369; SmartDashboard; Pose (Estimated); (5.514, -0.403, 9.2 degrees)
+1678668472369; SmartDashboard; Wheel Encoder Positions; (0.000, -0.170)
+1678668472369; limelight; botpose; [5.543071894918889, -0.14443398859836631, 0.33696149930861263, 2.0762068506794242, -1.137840080312692, -4.105059173976358]
+1678668472369; SmartDashboard; Pose (LimeLight); (5.543, -0.144, -4.1 degrees)
+1678668472469; SmartDashboard; Pose (Estimated); (5.523, -0.389, 10.0 degrees)
+1678668472469; SmartDashboard; Wheel Encoder Positions; (0.000, -0.148)
+1678668472469; limelight; botpose; [5.5015002381996485, -0.2816078319916978, 0.35924631486648206, 1.9312141114459203, -0.2322685018250078, -2.141891627699419]
+1678668472469; SmartDashboard; Pose (LimeLight); (5.502, -0.282, -2.1 degrees)
+1678668472569; limelight; botpose; [5.511179567457541, -0.33708235707310075, 0.39053156576329057, 2.1729735503677987, 0.7054206764072108, -2.6747006006048775]
+1678668472569; SmartDashboard; Pose (LimeLight); (5.511, -0.337, -2.7 degrees)
+1678668472569; SmartDashboard; Pose (Estimated); (5.533, -0.382, 10.7 degrees)
+1678668472569; SmartDashboard; Wheel Encoder Positions; (0.000, -0.125)
+1678668472669; limelight; botpose; [5.541564545536336, -0.35739890129014457, 0.40418122903412285, 2.1932318647571494, 1.2579562218852214, -4.548374246917561]
+1678668472669; SmartDashboard; Pose (Estimated); (5.545, -0.377, 11.2 degrees)
+1678668472669; SmartDashboard; Pose (LimeLight); (5.542, -0.357, -4.5 degrees)
+1678668472669; SmartDashboard; Wheel Encoder Positions; (0.000, -0.102)
+1678668472800; limelight; botpose; [5.6580740866371455, -0.34174147053327614, 0.37269873245729196, 2.534446417612896, 0.40517308229397425, -11.516720326550788]
+1678668472800; SmartDashboard; Pose (LimeLight); (5.658, -0.342, -11.5 degrees)
+1678668472800; SmartDashboard; Pose (Estimated); (5.559, -0.374, 11.3 degrees)
+1678668472800; SmartDashboard; Wheel Encoder Positions; (0.000, -0.085)
+1678668472869; SmartDashboard; Wheel Encoder Positions; (0.000, -0.059)
+1678668472870; SmartDashboard; Pose (Estimated); (5.588, -0.369, 8.7 degrees)
+1678668472870; limelight; botpose; [5.660646005140494, -0.371510615365888, 0.3859306304595596, 2.3057165206892147, 0.9936070819064522, -11.79349524001975]
+1678668472870; SmartDashboard; Pose (LimeLight); (5.661, -0.372, -11.8 degrees)
+1678668472969; SmartDashboard; Pose (Estimated); (5.610, -0.368, 8.1 degrees)
+1678668472969; SmartDashboard; Wheel Encoder Positions; (0.000, -0.036)
+1678668472969; limelight; botpose; [5.704367415224102, -0.3675094535123544, 0.37601673338597336, 2.4687660213273284, 0.7279340877474755, -14.529097344131186]
+1678668472969; SmartDashboard; Pose (LimeLight); (5.704, -0.368, -14.5 degrees)
+1678668473070; SmartDashboard; Pose (Estimated); (5.634, -0.369, 7.3 degrees)
+1678668473070; SmartDashboard; Wheel Encoder Positions; (0.000, -0.015)
+1678668473070; limelight; botpose; [5.758284233571571, -0.3989053758065198, 0.3635458767788518, 2.5640412198597127, 0.5368820361345943, -17.836051712847247]
+1678668473070; SmartDashboard; Pose (LimeLight); (5.758, -0.399, -17.8 degrees)
+1678668473222; SmartDashboard; Pose (Estimated); (5.662, -0.370, 6.4 degrees)
+1678668473223; SmartDashboard; Wheel Encoder Positions; (0.000, 0.007)
+1678668473223; limelight; botpose; [5.806588572338627, -0.39182245949350936, 0.32119739206877695, 3.152662754725765, -0.9873589882509933, -19.982896373698388]
+1678668473223; SmartDashboard; Pose (LimeLight); (5.807, -0.392, -20.0 degrees)
+1678668473274; SmartDashboard; Pose (Estimated); (5.688, -0.375, 5.4 degrees)
+1678668473275; SmartDashboard; Wheel Encoder Positions; (0.000, 0.029)
+1678668473275; limelight; botpose; [5.82354014905236, -0.4233142914989468, 0.3106437956437179, 3.4163840467972646, -1.2714002078318543, -21.783757012627415]
+1678668473275; SmartDashboard; Pose (LimeLight); (5.824, -0.423, -21.8 degrees)
+1678668473370; SmartDashboard; Pose (Estimated); (5.716, -0.381, 4.3 degrees)
+1678668473370; SmartDashboard; Wheel Encoder Positions; (0.000, 0.052)
+1678668473370; limelight; botpose; [5.864502624846373, -0.4466442115747642, 0.30447128466185436, 3.6481422545639255, -1.4779252294388332, -24.242295632541854]
+1678668473370; SmartDashboard; Pose (LimeLight); (5.865, -0.447, -24.2 degrees)
+1678668473477; SmartDashboard; Pose (Estimated); (5.745, -0.392, 3.1 degrees)
+1678668473477; SmartDashboard; Wheel Encoder Positions; (0.000, 0.074)
+1678668473477; limelight; botpose; [5.895405697441551, -0.4932396469351453, 0.3337447157939772, 3.5054369904028015, -0.24557651767941935, -26.869350492521313]
+1678668473477; SmartDashboard; Pose (LimeLight); (5.895, -0.493, -26.9 degrees)
+1678668473572; limelight; botpose; [5.9360821039255365, -0.5024744516643663, 0.33199728067522605, 3.649354581407387, -0.13708226635869977, -29.581632333944096]
+1678668473572; SmartDashboard; Pose (LimeLight); (5.936, -0.502, -29.6 degrees)
+1678668473572; SmartDashboard; Pose (Estimated); (5.775, -0.403, 1.7 degrees)
+1678668473572; SmartDashboard; Wheel Encoder Positions; (0.000, 0.095)
+1678668473697; SmartDashboard; Pose (Estimated); (5.803, -0.413, 0.2 degrees)
+1678668473697; limelight; botpose; [5.9535702261315535, -0.5054925649163676, 0.32713982114173235, 3.816067359304633, -0.23949957320544063, -30.97210992547387]
+1678668473697; SmartDashboard; Wheel Encoder Positions; (0.000, 0.116)
+1678668473698; SmartDashboard; Pose (LimeLight); (5.954, -0.505, -31.0 degrees)
+1678668473770; limelight; botpose; [6.0502832956204085, -0.5447015303038671, 0.2834829253490075, 5.487575241608428, -1.5378411841584996, -37.24282499916255]
+1678668473770; SmartDashboard; Pose (LimeLight); (6.050, -0.545, -37.2 degrees)
+1678668473770; SmartDashboard; Pose (Estimated); (5.856, -0.437, -5.1 degrees)
+1678668473770; SmartDashboard; Wheel Encoder Positions; (0.000, 0.135)
+1678668473870; SmartDashboard; Pose (Estimated); (5.882, -0.452, -6.8 degrees)
+1678668473870; SmartDashboard; Wheel Encoder Positions; (0.000, 0.153)
+1678668473870; limelight; botpose; [6.0307649150739575, -0.5824185312334702, 0.3357902830856263, 3.8986050907649408, 0.5682647190381721, -36.901928093149635]
+1678668473870; SmartDashboard; Pose (LimeLight); (6.031, -0.582, -36.9 degrees)
+1678668473969; SmartDashboard; Pose (Estimated); (5.909, -0.467, -8.5 degrees)
+1678668473970; SmartDashboard; Wheel Encoder Positions; (0.000, 0.173)
+1678668473970; limelight; botpose; [6.055736946945126, -0.589348381780371, 0.35200369261384234, 3.8108794255083644, 1.411750890776896, -39.63082564650681]
+1678668473970; SmartDashboard; Pose (LimeLight); (6.056, -0.589, -39.6 degrees)
+1678668474070; SmartDashboard; Pose (Estimated); (5.925, -0.500, -9.2 degrees)
+1678668474070; SmartDashboard; Wheel Encoder Positions; (0.000, 0.194)
+1678668474071; limelight; botpose; [5.970128485566613, -0.7793060434296435, 0.22344424603714833, 5.875756228071257, -3.2601064467499627, -33.57611359430574]
+1678668474071; SmartDashboard; Pose (LimeLight); (5.970, -0.779, -33.6 degrees)
+1678668474169; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668474169; SmartDashboard; Pose (LimeLight); null
+1678668474169; SmartDashboard; Pose (Estimated); (5.935, -0.502, -7.3 degrees)
+1678668474169; SmartDashboard; Wheel Encoder Positions; (0.000, 0.215)
+1678668474271; SmartDashboard; Pose (Estimated); (5.946, -0.503, -5.4 degrees)
+1678668474271; SmartDashboard; Wheel Encoder Positions; (0.000, 0.237)
+1678668474374; SmartDashboard; Pose (Estimated); (5.957, -0.504, -3.4 degrees)
+1678668474374; SmartDashboard; Wheel Encoder Positions; (0.000, 0.259)
+1678668474471; SmartDashboard; Pose (Estimated); (5.967, -0.504, -1.7 degrees)
+1678668474471; SmartDashboard; Wheel Encoder Positions; (0.000, 0.279)
+1678668474571; SmartDashboard; Pose (Estimated); (5.976, -0.505, -0.1 degrees)
+1678668474571; SmartDashboard; Wheel Encoder Positions; (0.000, 0.297)
+1678668474671; SmartDashboard; Pose (Estimated); (5.983, -0.504, 1.1 degrees)
+1678668474671; SmartDashboard; Wheel Encoder Positions; (0.000, 0.311)
+1678668474771; SmartDashboard; Pose (Estimated); (5.989, -0.504, 2.1 degrees)
+1678668474772; SmartDashboard; Wheel Encoder Positions; (0.000, 0.322)
+1678668474871; SmartDashboard; Pose (Estimated); (5.992, -0.504, 2.7 degrees)
+1678668474871; SmartDashboard; Wheel Encoder Positions; (0.000, 0.329)
+1678668474971; SmartDashboard; Pose (Estimated); (5.995, -0.504, 3.2 degrees)
+1678668474971; SmartDashboard; Wheel Encoder Positions; (0.000, 0.334)
+1678668475071; SmartDashboard; Pose (Estimated); (5.997, -0.504, 3.6 degrees)
+1678668475071; SmartDashboard; Wheel Encoder Positions; (0.000, 0.339)
+1678668475172; SmartDashboard; Pose (Estimated); (5.998, -0.504, 3.8 degrees)
+1678668475172; SmartDashboard; Wheel Encoder Positions; (0.000, 0.341)
+1678668475319; SmartDashboard; Pose (Estimated); (6.001, -0.504, 4.2 degrees)
+1678668475319; SmartDashboard; Wheel Encoder Positions; (0.000, 0.346)
+1678668475398; SmartDashboard; Pose (Estimated); (6.002, -0.504, 4.4 degrees)
+1678668475398; SmartDashboard; Wheel Encoder Positions; (0.000, 0.348)
+1678668475473; SmartDashboard; Pose (Estimated); (6.003, -0.504, 4.6 degrees)
+1678668475474; SmartDashboard; Wheel Encoder Positions; (0.000, 0.350)
+1678668475573; SmartDashboard; Pose (Estimated); (6.004, -0.503, 4.8 degrees)
+1678668475573; SmartDashboard; Wheel Encoder Positions; (0.000, 0.353)
+1678668475674; SmartDashboard; Pose (Estimated); (6.005, -0.503, 4.9 degrees)
+1678668475674; SmartDashboard; Wheel Encoder Positions; (0.000, 0.354)
+1678668475874; SmartDashboard; Pose (Estimated); (6.005, -0.503, 5.1 degrees)
+1678668475874; SmartDashboard; Wheel Encoder Positions; (0.000, 0.355)
+1678668475974; SmartDashboard; Pose (Estimated); (6.006, -0.503, 5.2 degrees)
+1678668475974; SmartDashboard; Wheel Encoder Positions; (0.000, 0.357)
+1678668476074; SmartDashboard; Pose (Estimated); (6.007, -0.503, 5.4 degrees)
+1678668476074; SmartDashboard; Wheel Encoder Positions; (0.000, 0.360)
+1678668476173; SmartDashboard; Pose (Estimated); (6.008, -0.503, 5.5 degrees)
+1678668476173; SmartDashboard; Wheel Encoder Positions; (0.000, 0.361)
+1678668476274; SmartDashboard; Pose (Estimated); (6.009, -0.503, 5.7 degrees)
+1678668476274; SmartDashboard; Wheel Encoder Positions; (0.000, 0.362)
+1678668476373; SmartDashboard; Pose (Estimated); (6.010, -0.503, 5.8 degrees)
+1678668476374; SmartDashboard; Wheel Encoder Positions; (0.000, 0.364)
+1678668476474; SmartDashboard; Pose (Estimated); (6.010, -0.503, 5.9 degrees)
+1678668476474; SmartDashboard; Wheel Encoder Positions; (0.000, 0.365)
+1678668476874; SmartDashboard; Pose (Estimated); (6.006, -0.503, 5.2 degrees)
+1678668476874; SmartDashboard; Wheel Encoder Positions; (0.000, 0.357)
+1678668476975; SmartDashboard; Pose (Estimated); (6.000, -0.504, 4.1 degrees)
+1678668476975; SmartDashboard; Wheel Encoder Positions; (0.000, 0.344)
+1678668477097; SmartDashboard; Pose (Estimated); (5.994, -0.504, 3.1 degrees)
+1678668477097; SmartDashboard; Wheel Encoder Positions; (0.000, 0.333)
+1678668477174; SmartDashboard; Pose (Estimated); (5.989, -0.504, 2.2 degrees)
+1678668477174; SmartDashboard; Wheel Encoder Positions; (0.000, 0.323)
+1678668477274; SmartDashboard; Pose (Estimated); (5.985, -0.505, 1.5 degrees)
+1678668477275; SmartDashboard; Wheel Encoder Positions; (0.000, 0.315)
+1678668477417; SmartDashboard; Pose (Estimated); (5.982, -0.505, 0.9 degrees)
+1678668477417; SmartDashboard; Wheel Encoder Positions; (0.000, 0.308)
+1678668477474; SmartDashboard; Pose (Estimated); (5.978, -0.505, 0.2 degrees)
+1678668477475; SmartDashboard; Wheel Encoder Positions; (0.000, 0.300)
+1678668477575; SmartDashboard; Pose (Estimated); (5.973, -0.505, -0.6 degrees)
+1678668477575; SmartDashboard; Wheel Encoder Positions; (0.000, 0.291)
+1678668477677; SmartDashboard; Pose (Estimated); (5.970, -0.505, -1.2 degrees)
+1678668477678; SmartDashboard; Wheel Encoder Positions; (0.000, 0.284)
+1678668477775; SmartDashboard; Pose (Estimated); (5.966, -0.504, -1.9 degrees)
+1678668477776; SmartDashboard; Wheel Encoder Positions; (0.000, 0.276)
+1678668477886; SmartDashboard; Pose (Estimated); (5.962, -0.504, -2.5 degrees)
+1678668477886; SmartDashboard; Wheel Encoder Positions; (0.000, 0.269)
+1678668478002; SmartDashboard; Pose (Estimated); (5.966, -0.541, -5.8 degrees)
+1678668478002; SmartDashboard; Wheel Encoder Positions; (0.000, 0.262)
+1678668478002; limelight; botpose; [6.0357287901119525, -0.8703371306098716, 0.25999191037492847, 4.068106958729276, -2.675321497198564, -29.311948019832883]
+1678668478002; SmartDashboard; Pose (LimeLight); (6.036, -0.870, -29.3 degrees)
+1678668478075; SmartDashboard; Pose (Estimated); (5.976, -0.555, -9.4 degrees)
+1678668478076; SmartDashboard; Wheel Encoder Positions; (0.000, 0.255)
+1678668478076; limelight; botpose; [6.099046405303679, -0.6931703142774936, 0.4677955841463405, 0.06847108373138346, 5.921153380416558, -35.36751767487335]
+1678668478076; SmartDashboard; Pose (LimeLight); (6.099, -0.693, -35.4 degrees)
+1678668478176; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668478177; SmartDashboard; Pose (LimeLight); null
+1678668478177; SmartDashboard; Pose (Estimated); (5.983, -0.569, -12.4 degrees)
+1678668478177; SmartDashboard; Wheel Encoder Positions; (0.000, 0.247)
+1678668478276; SmartDashboard; Pose (Estimated); (5.988, -0.576, -14.9 degrees)
+1678668478276; SmartDashboard; Wheel Encoder Positions; (0.000, 0.238)
+1678668478276; limelight; botpose; [6.074325637400525, -0.6521778367094561, 0.39290772163783816, 2.145953305515268, 2.56247540835685, -30.4006157569898]
+1678668478276; SmartDashboard; Pose (LimeLight); (6.074, -0.652, -30.4 degrees)
+1678668478465; SmartDashboard; Pose (Estimated); (5.992, -0.582, -17.3 degrees)
+1678668478465; SmartDashboard; Wheel Encoder Positions; (0.000, 0.229)
+1678668478465; limelight; botpose; [6.054116665068189, -0.6434007016814685, 0.402807415005135, 1.815127079668455, 2.83051263844046, -28.21942952236917]
+1678668478475; SmartDashboard; Pose (Estimated); (5.993, -0.585, -19.0 degrees)
+1678668478475; SmartDashboard; Wheel Encoder Positions; (0.000, 0.219)
+1678668478475; limelight; botpose; [6.040378461614629, -0.623293820272222, 0.42315295776992595, 1.6175385590052282, 3.594593231779178, -26.710611136650172]
+1678668478475; SmartDashboard; Pose (LimeLight); (6.040, -0.623, -26.7 degrees)
+1678668478601; SmartDashboard; Pose (Estimated); (5.989, -0.588, -20.5 degrees)
+1678668478601; SmartDashboard; Wheel Encoder Positions; (0.000, 0.208)
+1678668478601; limelight; botpose; [6.011801447748712, -0.6293786944457744, 0.4120356480850651, 1.7388461021884727, 3.0062864814486785, -24.118561371404184]
+1678668478601; SmartDashboard; Pose (LimeLight); (6.012, -0.629, -24.1 degrees)
+1678668478679; limelight; botpose; [5.995221209691499, -0.6029726922715171, 0.393091980952868, 2.091574856052618, 2.052829111706923, -22.27755797237835]
+1678668478679; SmartDashboard; Pose (LimeLight); (5.995, -0.603, -22.3 degrees)
+1678668478679; SmartDashboard; Pose (Estimated); (5.986, -0.589, -21.6 degrees)
+1678668478680; SmartDashboard; Wheel Encoder Positions; (0.000, 0.198)
+1678668478776; SmartDashboard; Pose (Estimated); (5.983, -0.587, -22.4 degrees)
+1678668478776; SmartDashboard; Wheel Encoder Positions; (0.000, 0.188)
+1678668478776; limelight; botpose; [5.989771430480284, -0.5817751260127235, 0.38657443858361396, 2.209675937790007, 1.6752995491875295, -21.62721119412833]
+1678668478777; SmartDashboard; Pose (LimeLight); (5.990, -0.582, -21.6 degrees)
+1678668478876; SmartDashboard; Pose (Estimated); (5.978, -0.585, -22.9 degrees)
+1678668478876; SmartDashboard; Wheel Encoder Positions; (0.000, 0.180)
+1678668478876; limelight; botpose; [5.968641783371752, -0.5792327237143836, 0.385790450848701, 2.059610059071374, 1.6258391670929118, -20.225126146331252]
+1678668478876; SmartDashboard; Pose (LimeLight); (5.969, -0.579, -20.2 degrees)
+1678668478975; SmartDashboard; Pose (Estimated); (5.972, -0.580, -23.4 degrees)
+1678668478976; SmartDashboard; Wheel Encoder Positions; (0.000, 0.170)
+1678668478976; limelight; botpose; [5.963864886643274, -0.5524824422217441, 0.3950482959205604, 2.0279771723213638, 1.9189841627547823, -19.939683033907237]
+1678668478976; SmartDashboard; Pose (LimeLight); (5.964, -0.552, -19.9 degrees)
+1678668479076; SmartDashboard; Pose (Estimated); (5.966, -0.574, -23.8 degrees)
+1678668479076; SmartDashboard; Wheel Encoder Positions; (0.000, 0.160)
+1678668479076; limelight; botpose; [5.950754212571397, -0.5392011077499972, 0.40304932062396004, 1.9921905427179736, 2.1650120785584748, -18.92674291775345]
+1678668479076; SmartDashboard; Pose (LimeLight); (5.951, -0.539, -18.9 degrees)
+1678668479176; SmartDashboard; Pose (Estimated); (5.958, -0.568, -24.0 degrees)
+1678668479176; SmartDashboard; Wheel Encoder Positions; (0.000, 0.151)
+1678668479176; limelight; botpose; [5.933064287643233, -0.5324821602678838, 0.41006579918805414, 1.8750517160759657, 2.378378550427883, -17.527043296616643]
+1678668479176; SmartDashboard; Pose (LimeLight); (5.933, -0.532, -17.5 degrees)
+1678668479276; SmartDashboard; Pose (Estimated); (5.950, -0.561, -24.1 degrees)
+1678668479276; limelight; botpose; [5.9061357446663765, -0.49924821355950016, 0.41501387655783123, 1.8248450470042779, 2.4368575701117066, -15.221780648491888]
+1678668479276; SmartDashboard; Wheel Encoder Positions; (0.000, 0.141)
+1678668479276; SmartDashboard; Pose (LimeLight); (5.906, -0.499, -15.2 degrees)
+1678668479376; SmartDashboard; Pose (Estimated); (5.934, -0.546, -23.1 degrees)
+1678668479376; SmartDashboard; Wheel Encoder Positions; (0.000, 0.130)
+1678668479376; limelight; botpose; [5.878648491922057, -0.4917783176238052, 0.42593638931817407, 1.9031160072392155, 2.794565101399134, -13.339195079055433]
+1678668479376; SmartDashboard; Pose (LimeLight); (5.879, -0.492, -13.3 degrees)
+1678668479514; SmartDashboard; Pose (Estimated); (5.922, -0.539, -22.5 degrees)
+1678668479514; SmartDashboard; Wheel Encoder Positions; (0.000, 0.121)
+1678668479514; limelight; botpose; [5.848891795025328, -0.4923759138335365, 0.44438045990058855, 1.9798922309358338, 3.4001591949703545, -11.124929953449755]
+1678668479514; SmartDashboard; Pose (LimeLight); (5.849, -0.492, -11.1 degrees)
+1678668479576; SmartDashboard; Pose (Estimated); (5.910, -0.532, -22.2 degrees)
+1678668479577; SmartDashboard; Wheel Encoder Positions; (0.000, 0.111)
+1678668479577; limelight; botpose; [5.843852636710195, -0.4814211574338838, 0.46168247000775936, 1.7545949923804596, 4.086901782444903, -10.56054176675456]
+1678668479577; SmartDashboard; Pose (LimeLight); (5.844, -0.481, -10.6 degrees)
+1678668479693; SmartDashboard; Pose (Estimated); (5.897, -0.525, -21.5 degrees)
+1678668479693; SmartDashboard; Wheel Encoder Positions; (0.000, 0.103)
+1678668479694; limelight; botpose; [5.8190085804366465, -0.47783867888881926, 0.46835766494810654, 1.7445621805402423, 4.278227969667724, -8.624593443480467]
+1678668479694; SmartDashboard; Pose (LimeLight); (5.819, -0.478, -8.6 degrees)
+1678668479777; SmartDashboard; Pose (Estimated); (5.883, -0.517, -21.0 degrees)
+1678668479777; SmartDashboard; Wheel Encoder Positions; (0.000, 0.092)
+1678668479777; limelight; botpose; [5.80227037752728, -0.4681988356494771, 0.4358069607860925, 1.7649631869865705, 2.942667855163373, -7.085968098209113]
+1678668479777; SmartDashboard; Pose (LimeLight); (5.802, -0.468, -7.1 degrees)
+1678668479876; SmartDashboard; Pose (Estimated); (5.868, -0.512, -20.1 degrees)
+1678668479876; SmartDashboard; Wheel Encoder Positions; (0.000, 0.084)
+1678668479876; limelight; botpose; [5.772744090356814, -0.4803982434148145, 0.4517607977764559, 2.130920845053096, 3.2989026885510757, -4.851812328141477]
+1678668479876; SmartDashboard; Pose (LimeLight); (5.773, -0.480, -4.9 degrees)
+1678668479983; SmartDashboard; Pose (Estimated); (5.855, -0.507, -19.0 degrees)
+1678668479983; SmartDashboard; Wheel Encoder Positions; (0.000, 0.078)
+1678668479983; limelight; botpose; [5.7647179110648965, -0.4646458964563353, 0.4338558173969618, 2.069182928578177, 2.604431866417068, -4.150458105241216]
+1678668479983; SmartDashboard; Pose (LimeLight); (5.765, -0.465, -4.2 degrees)
+1678668480077; limelight; botpose; [5.746453553248103, -0.4500107160775309, 0.4152000322454464, 2.035756383317488, 1.87408812781517, -3.526614745133526]
+1678668480077; SmartDashboard; Pose (LimeLight); (5.746, -0.450, -3.5 degrees)
+1678668480077; SmartDashboard; Pose (Estimated); (5.834, -0.497, -16.1 degrees)
+1678668480077; SmartDashboard; Wheel Encoder Positions; (0.000, 0.077)
+1678668480177; limelight; botpose; [5.731786752759152, -0.46166486145528146, 0.4023234096826029, 1.9800499087285874, 1.4122258525171927, -3.038553622173992]
+1678668480177; SmartDashboard; Pose (LimeLight); (5.732, -0.462, -3.0 degrees)
+1678668480177; SmartDashboard; Pose (Estimated); (5.824, -0.494, -14.8 degrees)
+1678668480277; limelight; botpose; [5.7313274398178855, -0.4552941125800837, 0.41933841131891914, 2.203385227027262, 1.9276312647037384, -3.2677452438592063]
+1678668480277; SmartDashboard; Pose (LimeLight); (5.731, -0.455, -3.3 degrees)
+1678668480277; SmartDashboard; Pose (Estimated); (5.814, -0.490, -13.7 degrees)
+1678668480377; limelight; botpose; [5.739106128251344, -0.45061169103880294, 0.38740612240290195, 1.775821300393896, 0.9587565421302447, -3.5507136524441605]
+1678668480378; SmartDashboard; Pose (LimeLight); (5.739, -0.451, -3.6 degrees)
+1678668480378; SmartDashboard; Pose (Estimated); (5.807, -0.486, -12.7 degrees)
+1678668480563; limelight; botpose; [5.733408117933733, -0.4562706280945187, 0.41294688250641187, 1.9583788326088316, 1.8323921325264003, -3.2890001152144124]
+1678668480563; SmartDashboard; Pose (Estimated); (5.799, -0.483, -11.7 degrees)
+1678668480563; SmartDashboard; Pose (LimeLight); (5.733, -0.456, -3.3 degrees)
+1678668480578; limelight; botpose; [5.742278121167762, -0.45309591591338944, 0.4152188755760244, 2.0327492163233214, 1.8903048385001113, -3.5053552031677317]
+1678668480578; SmartDashboard; Pose (LimeLight); (5.742, -0.453, -3.5 degrees)
+1678668480578; SmartDashboard; Pose (Estimated); (5.796, -0.480, -10.5 degrees)
+1678668480578; SmartDashboard; Wheel Encoder Positions; (0.000, 0.081)
+1678668480678; SmartDashboard; Pose (Estimated); (5.796, -0.478, -8.9 degrees)
+1678668480678; SmartDashboard; Wheel Encoder Positions; (0.000, 0.092)
+1678668480678; limelight; botpose; [5.744000807731088, -0.4653193953606141, 0.41083067251686084, 1.9371772843203878, 1.7956333745779012, -3.256543695907172]
+1678668480678; SmartDashboard; Pose (LimeLight); (5.744, -0.465, -3.3 degrees)
+1678668480779; SmartDashboard; Pose (Estimated); (5.797, -0.478, -7.3 degrees)
+1678668480779; SmartDashboard; Wheel Encoder Positions; (0.000, 0.103)
+1678668480879; limelight; botpose; [5.7675258983041084, -0.4718605999501612, 0.4123688517822557, 2.0551431176494805, 1.8311549200254509, -3.96996744956577]
+1678668480879; SmartDashboard; Pose (LimeLight); (5.768, -0.472, -4.0 degrees)
+1678668480879; SmartDashboard; Pose (Estimated); (5.799, -0.477, -5.9 degrees)
+1678668480879; SmartDashboard; Wheel Encoder Positions; (0.000, 0.116)
+1678668480979; SmartDashboard; Pose (Estimated); (5.801, -0.478, -4.3 degrees)
+1678668480980; SmartDashboard; Wheel Encoder Positions; (0.000, 0.131)
+1678668480980; limelight; botpose; [5.78252688511736, -0.47978593889854126, 0.3963503579548983, 2.0662500381775084, 1.268612225832034, -4.560671213847434]
+1678668480980; SmartDashboard; Pose (LimeLight); (5.783, -0.480, -4.6 degrees)
+1678668481082; SmartDashboard; Pose (Estimated); (5.808, -0.478, -3.1 degrees)
+1678668481082; SmartDashboard; Wheel Encoder Positions; (0.000, 0.145)
+1678668481082; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668481082; SmartDashboard; Pose (LimeLight); null
+1678668481180; SmartDashboard; Pose (Estimated); (5.818, -0.478, -2.1 degrees)
+1678668481181; SmartDashboard; Wheel Encoder Positions; (0.000, 0.162)
+1678668481181; limelight; botpose; [5.824291713982677, -0.47492355246027423, 0.42177045196500046, 2.125980347256044, 2.29387578861192, -6.843632335121132]
+1678668481181; SmartDashboard; Pose (LimeLight); (5.824, -0.475, -6.8 degrees)
+1678668481281; SmartDashboard; Pose (Estimated); (5.828, -0.478, -1.1 degrees)
+1678668481281; SmartDashboard; Wheel Encoder Positions; (0.000, 0.180)
+1678668481281; limelight; botpose; [5.833885208711685, -0.47389619879683076, 0.4129193567540326, 2.099723200473195, 1.9951532911286778, -7.416690478814135]
+1678668481281; SmartDashboard; Pose (LimeLight); (5.834, -0.474, -7.4 degrees)
+1678668481410; SmartDashboard; Pose (Estimated); (5.839, -0.479, -0.3 degrees)
+1678668481410; SmartDashboard; Wheel Encoder Positions; (0.000, 0.198)
+1678668481410; limelight; botpose; [5.854324378553761, -0.4883027789394675, 0.38831277112146656, 2.24172211535995, 1.0352897334246076, -8.2278470207988]
+1678668481410; SmartDashboard; Pose (LimeLight); (5.854, -0.488, -8.2 degrees)
+1678668481481; SmartDashboard; Pose (Estimated); (5.855, -0.479, 0.4 degrees)
+1678668481481; SmartDashboard; Wheel Encoder Positions; (0.000, 0.219)
+1678668481481; limelight; botpose; [5.895786560649639, -0.4797326511397794, 0.3962422190166899, 2.268746837617137, 1.4131955342656541, -10.918263242737876]
+1678668481481; SmartDashboard; Pose (LimeLight); (5.896, -0.480, -10.9 degrees)
+1678668481613; limelight; botpose; [5.927708506380235, -0.491750479805821, 0.36878003808843407, 2.2607693604914707, 0.3634412672400523, -12.254282530897553]
+1678668481613; SmartDashboard; Pose (Estimated); (5.870, -0.481, 0.5 degrees)
+1678668481613; SmartDashboard; Wheel Encoder Positions; (0.000, 0.234)
+1678668481613; SmartDashboard; Pose (LimeLight); (5.928, -0.492, -12.3 degrees)
+1678668481681; SmartDashboard; Pose (Estimated); (5.887, -0.482, 0.6 degrees)
+1678668481681; SmartDashboard; Wheel Encoder Positions; (0.000, 0.252)
+1678668481681; limelight; botpose; [5.950075129872616, -0.497429604247828, 0.38252208385261266, 2.4508280708194214, 0.8897580807946224, -13.69849072427328]
+1678668481681; SmartDashboard; Pose (LimeLight); (5.950, -0.497, -13.7 degrees)
+1678668481783; limelight; botpose; [6.012657456343632, -0.5136075870962669, 0.36736162187256316, 2.48345729907258, 0.5044080713239965, -17.172456975221213]
+1678668481783; SmartDashboard; Pose (Estimated); (5.904, -0.486, 0.6 degrees)
+1678668481783; SmartDashboard; Pose (LimeLight); (6.013, -0.514, -17.2 degrees)
+1678668481783; SmartDashboard; Wheel Encoder Positions; (0.000, 0.270)
+1678668481883; SmartDashboard; Pose (Estimated); (5.935, -0.493, -1.5 degrees)
+1678668481883; SmartDashboard; Wheel Encoder Positions; (0.000, 0.287)
+1678668481883; limelight; botpose; [6.0362332467601965, -0.5323248601256787, 0.3625114244632402, 2.5831036797118037, 0.33718044279674286, -18.39426135631489]
+1678668481883; SmartDashboard; Pose (LimeLight); (6.036, -0.532, -18.4 degrees)
+1678668481983; SmartDashboard; Pose (Estimated); (5.955, -0.499, -2.0 degrees)
+1678668481983; SmartDashboard; Wheel Encoder Positions; (0.000, 0.304)
+1678668481983; limelight; botpose; [6.056748472584728, -0.5492225310379398, 0.3615636058177878, 2.6395562390570317, 0.3727733585540623, -19.47064465033765]
+1678668481983; SmartDashboard; Pose (LimeLight); (6.057, -0.549, -19.5 degrees)
+1678668482083; SmartDashboard; Pose (Estimated); (5.975, -0.505, -2.5 degrees)
+1678668482083; SmartDashboard; Wheel Encoder Positions; (0.000, 0.321)
+1678668482083; limelight; botpose; [6.0805052588529955, -0.5609951879924889, 0.3659498188543518, 2.8194148055665216, 0.6123553712065207, -20.882846046801955]
+1678668482083; SmartDashboard; Pose (LimeLight); (6.081, -0.561, -20.9 degrees)
+1678668482183; SmartDashboard; Pose (Estimated); (5.997, -0.513, -2.9 degrees)
+1678668482183; SmartDashboard; Wheel Encoder Positions; (0.000, 0.339)
+1678668482183; limelight; botpose; [6.103405842808912, -0.580712294600555, 0.3434508862660199, 2.888953585340081, -0.291067453872981, -22.101872100623716]
+1678668482184; SmartDashboard; Pose (LimeLight); (6.103, -0.581, -22.1 degrees)
+1678668482300; SmartDashboard; Pose (Estimated); (6.017, -0.521, -3.5 degrees)
+1678668482300; SmartDashboard; Wheel Encoder Positions; (0.000, 0.355)
+1678668482300; limelight; botpose; [6.119285454642173, -0.5819220674358935, 0.34338419614840576, 3.1037996782269426, -0.28339188296507467, -23.120401226134078]
+1678668482301; SmartDashboard; Pose (LimeLight); (6.119, -0.582, -23.1 degrees)
+1678668482407; limelight; botpose; [6.160549019344851, -0.6113276409579875, 0.34803099422245043, 3.1448140365026114, 0.05317184811557343, -25.806650397071547]
+1678668482408; SmartDashboard; Pose (Estimated); (6.050, -0.538, -6.2 degrees)
+1678668482408; SmartDashboard; Pose (LimeLight); (6.161, -0.611, -25.8 degrees)
+1678668482408; SmartDashboard; Wheel Encoder Positions; (0.000, 0.373)
+1678668482484; SmartDashboard; Pose (Estimated); (6.071, -0.548, -6.8 degrees)
+1678668482484; SmartDashboard; Wheel Encoder Positions; (0.000, 0.392)
+1678668482484; limelight; botpose; [6.178518554749094, -0.6278870171013007, 0.3530562481401579, 3.200131647573311, 0.3549408746197992, -26.998942987429615]
+1678668482484; SmartDashboard; Pose (LimeLight); (6.179, -0.628, -27.0 degrees)
+1678668482659; SmartDashboard; Pose (Estimated); (6.093, -0.558, -7.5 degrees)
+1678668482659; SmartDashboard; Wheel Encoder Positions; (0.000, 0.410)
+1678668482660; limelight; botpose; [6.20231419781187, -0.6377865749411772, 0.3515062563209914, 3.3339020387618694, 0.3466043581952144, -28.669910087134195]
+1678668482660; SmartDashboard; Pose (LimeLight); (6.202, -0.638, -28.7 degrees)
+1678668482684; SmartDashboard; Pose (Estimated); (6.115, -0.568, -8.3 degrees)
+1678668482684; SmartDashboard; Wheel Encoder Positions; (0.000, 0.428)
+1678668482684; limelight; botpose; [6.229100070066837, -0.6475666514815999, 0.3449815985194428, 3.594259650420896, 0.09486419492545956, -30.595145176544282]
+1678668482684; SmartDashboard; Pose (LimeLight); (6.229, -0.648, -30.6 degrees)
+1678668482785; SmartDashboard; Pose (Estimated); (6.151, -0.587, -11.4 degrees)
+1678668482785; SmartDashboard; Wheel Encoder Positions; (0.000, 0.445)
+1678668482785; limelight; botpose; [6.2725308602885965, -0.6641528191934953, 0.3365580013929495, 4.252627908948466, -0.19649866624257947, -33.62933080324579]
+1678668482785; SmartDashboard; Pose (LimeLight); (6.273, -0.664, -33.6 degrees)
+1678668482885; SmartDashboard; Wheel Encoder Positions; (0.000, 0.458)
+1678668482885; SmartDashboard; Pose (Estimated); (6.172, -0.598, -12.6 degrees)
+1678668482885; limelight; botpose; [6.29059895639077, -0.683670654852895, 0.3369341347858749, 4.372540174883326, -0.054464060227087725, -35.106688488914344]
+1678668482885; SmartDashboard; Pose (LimeLight); (6.291, -0.684, -35.1 degrees)
+1678668482984; SmartDashboard; Wheel Encoder Positions; (0.000, 0.472)
+1678668482984; SmartDashboard; Pose (Estimated); (6.179, -0.599, -11.3 degrees)
+1678668482984; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668482984; SmartDashboard; Pose (LimeLight); null
+1678668483085; SmartDashboard; Wheel Encoder Positions; (0.000, 0.484)
+1678668483085; SmartDashboard; Pose (Estimated); (6.194, -0.612, -13.0 degrees)
+1678668483085; limelight; botpose; [6.286368838141323, -0.7206674707038548, 0.38363157182929486, 2.9085792543009314, 2.43979635869958, -36.09245646380451]
+1678668483085; SmartDashboard; Pose (LimeLight); (6.286, -0.721, -36.1 degrees)
+1678668483195; SmartDashboard; Wheel Encoder Positions; (0.000, 0.492)
+1678668483195; limelight; botpose; [6.2297311969181965, -0.8716942511888649, 0.2748163996784827, 5.028121552583275, -2.8019480049072274, -29.080574915001115]
+1678668483195; SmartDashboard; Pose (Estimated); (6.201, -0.639, -13.9 degrees)
+1678668483195; SmartDashboard; Pose (LimeLight); (6.230, -0.872, -29.1 degrees)
+1678668483310; SmartDashboard; Wheel Encoder Positions; (0.000, 0.498)
+1678668483310; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668483310; SmartDashboard; Pose (LimeLight); null
+1678668483310; SmartDashboard; Pose (Estimated); (6.204, -0.640, -13.4 degrees)
+1678668483389; SmartDashboard; Wheel Encoder Positions; (0.000, 0.502)
+1678668483390; SmartDashboard; Pose (Estimated); (6.206, -0.640, -13.2 degrees)
+1678668483485; SmartDashboard; Pose (Estimated); (6.206, -0.640, -13.0 degrees)
+1678668483485; SmartDashboard; Wheel Encoder Positions; (0.000, 0.503)
+1678668483586; SmartDashboard; Pose (Estimated); (6.207, -0.641, -12.9 degrees)
+1678668483586; SmartDashboard; Wheel Encoder Positions; (0.000, 0.504)
+1678668484106; SmartDashboard; Pose (Estimated); (6.201, -0.639, -13.9 degrees)
+1678668484106; SmartDashboard; Wheel Encoder Positions; (0.000, 0.493)
+1678668484209; SmartDashboard; Pose (Estimated); (6.197, -0.638, -14.8 degrees)
+1678668484209; SmartDashboard; Wheel Encoder Positions; (0.000, 0.484)
+1678668484287; SmartDashboard; Pose (Estimated); (6.193, -0.637, -15.5 degrees)
+1678668484287; SmartDashboard; Wheel Encoder Positions; (0.000, 0.475)
+1678668484387; SmartDashboard; Pose (Estimated); (6.192, -0.663, -17.4 degrees)
+1678668484387; SmartDashboard; Wheel Encoder Positions; (0.000, 0.467)
+1678668484387; limelight; botpose; [6.2244463382693755, -0.9102367955853977, 0.27213707493194317, 4.1558961036719255, -3.1638899797109934, -26.929736397683968]
+1678668484387; SmartDashboard; Pose (LimeLight); (6.224, -0.910, -26.9 degrees)
+1678668484488; limelight; botpose; [6.2668952743451305, -0.7430801440510713, 0.4236083015900527, 0.9849746848839183, 4.1987290092883685, -32.605718134770676]
+1678668484488; SmartDashboard; Pose (LimeLight); (6.251, -0.795, -31.7 degrees)
+1678668484488; SmartDashboard; Pose (Estimated); (6.194, -0.675, -19.5 degrees)
+1678668484488; SmartDashboard; Wheel Encoder Positions; (0.000, 0.458)
+1678668484588; SmartDashboard; Pose (Estimated); (6.204, -0.686, -22.6 degrees)
+1678668484589; SmartDashboard; Pose (LimeLight); (6.268, -0.735, -31.8 degrees)
+1678668484589; SmartDashboard; Wheel Encoder Positions; (0.000, 0.450)
+1678668484589; limelight; botpose; [6.267589110246954, -0.7351113703022821, 0.3858631840047322, 2.1951333031529785, 2.2753990478354855, -31.84624720930643]
+1678668484756; SmartDashboard; Pose (Estimated); (6.206, -0.687, -24.1 degrees)
+1678668484756; SmartDashboard; Wheel Encoder Positions; (0.000, 0.442)
+1678668484756; limelight; botpose; [6.2562770543862, -0.7179077631089442, 0.38728818647742874, 2.1967086991895735, 2.2349847925420243, -30.325403376133636]
+1678668484756; SmartDashboard; Pose (LimeLight); (6.256, -0.718, -30.3 degrees)
+1678668484788; SmartDashboard; Pose (Estimated); (6.206, -0.687, -25.1 degrees)
+1678668484788; SmartDashboard; Wheel Encoder Positions; (0.000, 0.435)
+1678668484788; limelight; botpose; [6.239750179721167, -0.7007281859684611, 0.40301468528900475, 1.7449297116556317, 2.930068638490238, -28.755440848434624]
+1678668484788; SmartDashboard; Pose (LimeLight); (6.240, -0.701, -28.8 degrees)
+1678668484888; SmartDashboard; Pose (Estimated); (6.204, -0.686, -25.9 degrees)
+1678668484888; SmartDashboard; Wheel Encoder Positions; (0.000, 0.428)
+1678668484888; limelight; botpose; [6.22016080866181, -0.6913044125817733, 0.4157920867993337, 1.4061407677348063, 3.486481748939797, -26.798666741241178]
+1678668484889; SmartDashboard; Pose (LimeLight); (6.220, -0.691, -26.8 degrees)
+1678668485006; limelight; botpose; [6.196166180384197, -0.6583602566310298, 0.39580534814960944, 1.8286487113841794, 2.2755886344111746, -23.78166465024212]
+1678668485006; SmartDashboard; Pose (LimeLight); (6.200, -0.680, -24.8 degrees)
+1678668485006; SmartDashboard; Pose (Estimated); (6.202, -0.685, -26.2 degrees)
+1678668485006; SmartDashboard; Wheel Encoder Positions; (0.000, 0.424)
+1678668485089; SmartDashboard; Pose (LimeLight); (6.195, -0.653, -23.3 degrees)
+1678668485089; SmartDashboard; Pose (Estimated); (6.201, -0.679, -25.7 degrees)
+1678668485089; limelight; botpose; [6.194536989880195, -0.652609484755673, 0.3780806870181581, 2.2550626010320256, 1.3629550498688545, -23.29158634088842]
+1678668485189; limelight; botpose; [6.190303291839708, -0.6426216709888337, 0.3706937250796074, 2.520145058728069, 0.9387020205220334, -23.016546311476063]
+1678668485190; SmartDashboard; Pose (LimeLight); (6.190, -0.643, -23.0 degrees)
+1678668485190; SmartDashboard; Pose (Estimated); (6.200, -0.675, -25.4 degrees)
+1678668485289; limelight; botpose; [6.189033690012583, -0.6435193800791068, 0.3601894426945554, 2.60614830470876, 0.4586650494127843, -23.180522627886585]
+1678668485289; SmartDashboard; Pose (LimeLight); (6.189, -0.644, -23.2 degrees)
+1678668485290; SmartDashboard; Pose (Estimated); (6.201, -0.673, -24.7 degrees)
+1678668485290; SmartDashboard; Wheel Encoder Positions; (0.000, 0.429)
+1678668485389; SmartDashboard; Pose (Estimated); (6.208, -0.673, -23.2 degrees)
+1678668485389; SmartDashboard; Wheel Encoder Positions; (0.000, 0.445)
+1678668485389; limelight; botpose; [6.1951220553598985, -0.6425422652590167, 0.3665808736915647, 2.552195770585633, 0.7844580754423701, -23.460728674807598]
+1678668485389; SmartDashboard; Pose (LimeLight); (6.195, -0.643, -23.5 degrees)
+1678668485489; SmartDashboard; Pose (Estimated); (6.214, -0.674, -21.9 degrees)
+1678668485489; SmartDashboard; Wheel Encoder Positions; (0.000, 0.460)
+1678668485489; limelight; botpose; [6.20034497359429, -0.6519092999722699, 0.3634059596323967, 2.658747542410403, 0.6182709290184635, -23.37686451002128]
+1678668485489; SmartDashboard; Pose (LimeLight); (6.200, -0.652, -23.4 degrees)
+1678668485589; limelight; botpose; [6.242211626602852, -0.6537312744521062, 0.35489793942500225, 2.814640325183423, 0.2067812851543495, -25.045030415428783]
+1678668485590; SmartDashboard; Pose (LimeLight); (6.242, -0.654, -25.0 degrees)
+1678668485590; SmartDashboard; Pose (Estimated); (6.224, -0.672, -21.3 degrees)
+1678668485590; SmartDashboard; Wheel Encoder Positions; (0.000, 0.475)
+1678668485690; SmartDashboard; Pose (Estimated); (6.234, -0.674, -20.5 degrees)
+1678668485690; SmartDashboard; Wheel Encoder Positions; (0.000, 0.489)
+1678668485690; limelight; botpose; [6.255352717669133, -0.6663407074321405, 0.3542385947570392, 3.0257928547057893, 0.19541586519392415, -25.496368116467707]
+1678668485690; SmartDashboard; Pose (LimeLight); (6.255, -0.666, -25.5 degrees)
+1678668485805; SmartDashboard; Pose (Estimated); (6.244, -0.676, -19.8 degrees)
+1678668485805; SmartDashboard; Wheel Encoder Positions; (0.000, 0.504)
+1678668485805; limelight; botpose; [6.264492381355326, -0.668899435264307, 0.3509050096235234, 3.1387562177831203, 0.04588520230049547, -25.9646548515973]
+1678668485805; SmartDashboard; Pose (LimeLight); (6.264, -0.669, -26.0 degrees)
+1678668485891; SmartDashboard; Pose (Estimated); (6.254, -0.678, -19.3 degrees)
+1678668485891; SmartDashboard; Wheel Encoder Positions; (0.000, 0.518)
+1678668485891; limelight; botpose; [6.286615868620446, -0.6745517113741675, 0.343875304504412, 3.4334920946872107, -0.33963634892537525, -27.1978164629181]
+1678668485891; SmartDashboard; Pose (LimeLight); (6.287, -0.675, -27.2 degrees)
+1678668486020; SmartDashboard; Pose (Estimated); (6.265, -0.681, -19.2 degrees)
+1678668486020; SmartDashboard; Wheel Encoder Positions; (0.000, 0.531)
+1678668486020; limelight; botpose; [6.308698264569205, -0.6820602664914146, 0.34247145554855635, 3.6870665995634915, -0.38697631135214233, -28.54261988315661]
+1678668486020; SmartDashboard; Pose (LimeLight); (6.309, -0.682, -28.5 degrees)
+1678668486091; limelight; botpose; [6.344375580624451, -0.7010981015437303, 0.34634719523290297, 3.844415015398875, -0.06409480506466773, -30.889465558217495]
+1678668486091; SmartDashboard; Pose (LimeLight); (6.344, -0.701, -30.9 degrees)
+1678668486091; SmartDashboard; Pose (Estimated); (6.284, -0.685, -20.4 degrees)
+1678668486091; SmartDashboard; Wheel Encoder Positions; (0.000, 0.542)
+1678668486192; SmartDashboard; Pose (Estimated); (6.295, -0.690, -20.7 degrees)
+1678668486192; SmartDashboard; Wheel Encoder Positions; (0.000, 0.552)
+1678668486192; limelight; botpose; [6.352559118255912, -0.7148867574634941, 0.3487416847878235, 3.651579010122269, 0.13421674640385334, -31.443247360555795]
+1678668486192; SmartDashboard; Pose (LimeLight); (6.353, -0.715, -31.4 degrees)
+1678668486293; SmartDashboard; Pose (Estimated); (6.305, -0.694, -21.1 degrees)
+1678668486293; SmartDashboard; Wheel Encoder Positions; (0.000, 0.560)
+1678668486293; limelight; botpose; [6.35778174203741, -0.7186584334399199, 0.351293012067511, 3.603966779193678, 0.27705394772551817, -31.746907444269368]
+1678668486293; SmartDashboard; Pose (LimeLight); (6.358, -0.719, -31.7 degrees)
+1678668486392; SmartDashboard; Pose (Estimated); (6.314, -0.699, -21.6 degrees)
+1678668486392; SmartDashboard; Wheel Encoder Positions; (0.000, 0.567)
+1678668486392; limelight; botpose; [6.363348864907792, -0.7290565411984297, 0.3607926376887883, 3.306108148795899, 0.8479354415871401, -31.88522544871356]
+1678668486393; SmartDashboard; Pose (LimeLight); (6.363, -0.729, -31.9 degrees)
+1678668486492; SmartDashboard; Pose (Estimated); (6.322, -0.704, -22.0 degrees)
+1678668486493; SmartDashboard; Wheel Encoder Positions; (0.000, 0.574)
+1678668486493; limelight; botpose; [6.3678504112939756, -0.7385612943043837, 0.36051621259576444, 3.342221180118781, 0.859114519720573, -31.85536338640402]
+1678668486493; SmartDashboard; Pose (LimeLight); (6.368, -0.739, -31.9 degrees)
+1678668486593; limelight; botpose; [6.37417579410864, -0.7423615111170954, 0.36886207480772926, 3.1391681369453006, 1.3186575947644597, -32.171812147425776]
+1678668486593; SmartDashboard; Pose (LimeLight); (6.374, -0.742, -32.2 degrees)
+1678668486593; SmartDashboard; Pose (Estimated); (6.331, -0.709, -22.4 degrees)
+1678668486593; SmartDashboard; Wheel Encoder Positions; (0.000, 0.581)
+1678668486693; limelight; botpose; [6.380060173325157, -0.7576089498995866, 0.3727199336035489, 2.9447373177230904, 1.5801956746893036, -32.218370476994295]
+1678668486693; SmartDashboard; Pose (LimeLight); (6.380, -0.758, -32.2 degrees)
+1678668486693; SmartDashboard; Pose (Estimated); (6.341, -0.718, -24.1 degrees)
+1678668486694; SmartDashboard; Wheel Encoder Positions; (0.000, 0.584)
+1678668486854; limelight; botpose; [6.381371144847169, -0.7638137519594017, 0.3795315428026653, 2.674891718666825, 1.9793604101706381, -32.09781292937474]
+1678668486854; SmartDashboard; Pose (LimeLight); (6.381, -0.764, -32.1 degrees)
+1678668486854; SmartDashboard; Pose (Estimated); (6.345, -0.723, -24.9 degrees)
+1678668486894; limelight; botpose; [6.378818310334814, -0.7725291911999348, 0.37313856241285337, 2.714052358242509, 1.6191606448000444, -31.565686124321083]
+1678668486894; SmartDashboard; Pose (LimeLight); (6.379, -0.773, -31.6 degrees)
+1678668486894; SmartDashboard; Pose (Estimated); (6.348, -0.728, -25.5 degrees)
+1678668486995; limelight; botpose; [6.377197633630625, -0.7729008509478016, 0.37899944917452033, 2.544665842198055, 1.9477712591894887, -31.28642054774414]
+1678668486995; SmartDashboard; Pose (LimeLight); (6.377, -0.773, -31.3 degrees)
+1678668486995; SmartDashboard; Pose (Estimated); (6.349, -0.731, -26.5 degrees)
+1678668486995; SmartDashboard; Wheel Encoder Positions; (0.000, 0.580)
+1678668487095; SmartDashboard; Pose (Estimated); (6.346, -0.732, -28.2 degrees)
+1678668487095; SmartDashboard; Wheel Encoder Positions; (0.000, 0.566)
+1678668487095; limelight; botpose; [6.374076151126929, -0.7710511463258833, 0.3867523841624498, 2.282398897570211, 2.367524383575305, -31.155575724683786]
+1678668487095; SmartDashboard; Pose (LimeLight); (6.374, -0.771, -31.2 degrees)
+1678668487194; SmartDashboard; Pose (Estimated); (6.343, -0.732, -29.4 degrees)
+1678668487195; SmartDashboard; Wheel Encoder Positions; (0.000, 0.555)
+1678668487195; limelight; botpose; [6.356588404619818, -0.7502557547749665, 0.38628799689084053, 2.265799454191078, 2.228738283179368, -30.073701043689216]
+1678668487195; SmartDashboard; Pose (LimeLight); (6.370, -0.759, -31.0 degrees)
+1678668487321; SmartDashboard; Pose (LimeLight); (6.336, -0.741, -28.4 degrees)
+1678668487321; SmartDashboard; Pose (Estimated); (6.340, -0.733, -30.1 degrees)
+1678668487321; SmartDashboard; Wheel Encoder Positions; (0.000, 0.545)
+1678668487321; limelight; botpose; [6.335739811392612, -0.7412449926832725, 0.3842781288974218, 2.1942094833614534, 2.024171139152452, -28.436859706642334]
+1678668487407; SmartDashboard; Pose (Estimated); (6.333, -0.729, -30.7 degrees)
+1678668487407; SmartDashboard; Wheel Encoder Positions; (0.000, 0.534)
+1678668487407; limelight; botpose; [6.3189064876713035, -0.7221902183116196, 0.3851524138355265, 2.117336370740267, 1.952317408413878, -26.790587381874325]
+1678668487407; SmartDashboard; Pose (LimeLight); (6.319, -0.722, -26.8 degrees)
+1678668487495; SmartDashboard; Pose (Estimated); (6.325, -0.726, -30.8 degrees)
+1678668487495; SmartDashboard; Wheel Encoder Positions; (0.000, 0.525)
+1678668487495; limelight; botpose; [6.287210896040442, -0.7169435514220087, 0.39181315365083574, 1.8090543503829282, 2.228662748763983, -23.811967067988178]
+1678668487495; SmartDashboard; Pose (LimeLight); (6.287, -0.717, -23.8 degrees)
+1678668487607; SmartDashboard; Pose (Estimated); (6.317, -0.722, -30.6 degrees)
+1678668487607; SmartDashboard; Wheel Encoder Positions; (0.000, 0.518)
+1678668487607; limelight; botpose; [6.276913921946566, -0.7019526195144384, 0.42304624302386096, 1.149333313326737, 3.8510364333499023, -23.048381290919032]
+1678668487608; SmartDashboard; Pose (LimeLight); (6.277, -0.702, -23.0 degrees)
+1678668487705; SmartDashboard; Pose (Estimated); (6.309, -0.715, -30.4 degrees)
+1678668487705; SmartDashboard; Wheel Encoder Positions; (0.000, 0.510)
+1678668487705; limelight; botpose; [6.2635109612479445, -0.678565262391279, 0.41009807547979477, 1.6241767181521058, 2.966191945450469, -21.271937636357364]
+1678668487705; SmartDashboard; Pose (LimeLight); (6.264, -0.679, -21.3 degrees)
+1678668487795; SmartDashboard; Pose (Estimated); (6.300, -0.708, -29.8 degrees)
+1678668487795; SmartDashboard; Wheel Encoder Positions; (0.000, 0.504)
+1678668487795; limelight; botpose; [6.251051725621386, -0.6594454354595596, 0.40009377698098036, 1.8651149273869876, 2.3362271909330494, -19.721161378004034]
+1678668487796; SmartDashboard; Pose (LimeLight); (6.251, -0.659, -19.7 degrees)
+1678668487902; limelight; botpose; [6.223992778069779, -0.6370979678573703, 0.3892661369328817, 2.128768075085212, 1.5650297397776713, -17.330817866443002]
+1678668487902; SmartDashboard; Pose (LimeLight); (6.224, -0.637, -17.3 degrees)
+1678668487902; SmartDashboard; Pose (Estimated); (6.286, -0.695, -27.7 degrees)
+1678668487902; SmartDashboard; Wheel Encoder Positions; (0.000, 0.502)
+1678668488021; limelight; botpose; [6.217559122685005, -0.6290793757493691, 0.3903474664280706, 2.204439384989522, 1.5546917849243371, -16.893128331968335]
+1678668488021; SmartDashboard; Pose (LimeLight); (6.218, -0.629, -16.9 degrees)
+1678668488021; SmartDashboard; Pose (Estimated); (6.279, -0.688, -26.8 degrees)
+1678668488021; SmartDashboard; Wheel Encoder Positions; (0.000, 0.500)
+1678668488095; limelight; botpose; [6.21713158866499, -0.6226397558856254, 0.38199027378888545, 2.1447968709149965, 1.1485027140976416, -17.115312228604573]
+1678668488095; SmartDashboard; Pose (LimeLight); (6.217, -0.623, -17.1 degrees)
+1678668488095; SmartDashboard; Pose (Estimated); (6.273, -0.681, -25.8 degrees)
+1678668488197; limelight; botpose; [6.212364597325158, -0.6280343103203203, 0.386327770067183, 2.100850542531746, 1.400978125531711, -16.904630059470204]
+1678668488197; SmartDashboard; Pose (LimeLight); (6.212, -0.628, -16.9 degrees)
+1678668488197; SmartDashboard; Pose (Estimated); (6.268, -0.677, -24.7 degrees)
+1678668488197; SmartDashboard; Wheel Encoder Positions; (0.000, 0.503)
+1678668488297; SmartDashboard; Pose (Estimated); (6.268, -0.674, -22.9 degrees)
+1678668488297; SmartDashboard; Wheel Encoder Positions; (0.000, 0.516)
+1678668488297; limelight; botpose; [6.218969801646975, -0.6256179414256855, 0.38976236622437915, 2.156012810845928, 1.5592372589391026, -17.16860445294372]
+1678668488297; SmartDashboard; Pose (LimeLight); (6.219, -0.626, -17.2 degrees)
+1678668488397; SmartDashboard; Pose (Estimated); (6.270, -0.672, -21.2 degrees)
+1678668488397; SmartDashboard; Wheel Encoder Positions; (0.000, 0.528)
+1678668488397; limelight; botpose; [6.225480559611087, -0.6329193327062643, 0.37586791305219985, 2.293496884933207, 0.8483718486117249, -17.100749011814518]
+1678668488397; SmartDashboard; Pose (LimeLight); (6.225, -0.633, -17.1 degrees)
+1678668488510; SmartDashboard; Pose (Estimated); (6.272, -0.671, -19.8 degrees)
+1678668488510; SmartDashboard; Wheel Encoder Positions; (0.000, 0.541)
+1678668488510; limelight; botpose; [6.23970463046379, -0.6360602205011819, 0.3802655121472548, 2.2593982355460924, 1.088323944627212, -17.514800292523006]
+1678668488510; SmartDashboard; Pose (LimeLight); (6.240, -0.636, -17.5 degrees)
+1678668488596; SmartDashboard; Pose (Estimated); (6.276, -0.669, -18.7 degrees)
+1678668488596; SmartDashboard; Wheel Encoder Positions; (0.000, 0.552)
+1678668488596; limelight; botpose; [6.2576987911937785, -0.6388133197211077, 0.3738707202111677, 2.437326013507394, 0.7814010851624125, -18.25872363448274]
+1678668488596; SmartDashboard; Pose (LimeLight); (6.258, -0.639, -18.3 degrees)
+1678668488697; limelight; botpose; [6.285002447275652, -0.6560142359171639, 0.3737102366190567, 2.5591154411945385, 0.8092731681004137, -19.49889494514675]
+1678668488697; SmartDashboard; Pose (LimeLight); (6.285, -0.656, -19.5 degrees)
+1678668488697; SmartDashboard; Pose (Estimated); (6.282, -0.668, -17.8 degrees)
+1678668488697; SmartDashboard; Wheel Encoder Positions; (0.000, 0.564)
+1678668488797; SmartDashboard; Pose (Estimated); (6.290, -0.670, -16.9 degrees)
+1678668488797; SmartDashboard; Wheel Encoder Positions; (0.000, 0.578)
+1678668488797; limelight; botpose; [6.299902945778343, -0.6656867486638847, 0.3657962409814526, 2.6607208488191834, 0.4230213595647855, -20.253704597715362]
+1678668488797; SmartDashboard; Pose (LimeLight); (6.300, -0.666, -20.3 degrees)
+1678668488952; SmartDashboard; Pose (Estimated); (6.297, -0.672, -16.4 degrees)
+1678668488952; SmartDashboard; Wheel Encoder Positions; (0.000, 0.589)
+1678668488952; limelight; botpose; [6.314722508033802, -0.6741156545711653, 0.36443643607992565, 2.6330463469454197, 0.3923279129428007, -20.965275697078756]
+1678668488953; SmartDashboard; Pose (LimeLight); (6.315, -0.674, -21.0 degrees)
+1678668488999; SmartDashboard; Pose (Estimated); (6.306, -0.674, -15.8 degrees)
+1678668488999; SmartDashboard; Wheel Encoder Positions; (0.000, 0.602)
+1678668488999; limelight; botpose; [6.324247350049075, -0.6757092289736762, 0.3570393959397814, 2.772072605654787, -0.035938190690142764, -21.42622365205423]
+1678668488999; SmartDashboard; Pose (LimeLight); (6.324, -0.676, -21.4 degrees)
+1678668489099; SmartDashboard; Pose (Estimated); (6.314, -0.676, -15.6 degrees)
+1678668489099; SmartDashboard; Wheel Encoder Positions; (0.000, 0.612)
+1678668489099; limelight; botpose; [6.3468439803811885, -0.6934819335250118, 0.36406822986848186, 2.6854796913149173, 0.4483653487940887, -22.25161512672313]
+1678668489099; SmartDashboard; Pose (LimeLight); (6.347, -0.693, -22.3 degrees)
+1678668489198; SmartDashboard; Pose (Estimated); (6.327, -0.681, -16.0 degrees)
+1678668489198; SmartDashboard; Wheel Encoder Positions; (0.000, 0.623)
+1678668489198; limelight; botpose; [6.360281347710302, -0.6985638554190058, 0.3619845124323605, 2.7205720070584367, 0.32436319796835816, -22.816665035199588]
+1678668489198; SmartDashboard; Pose (LimeLight); (6.360, -0.699, -22.8 degrees)
+1678668489298; SmartDashboard; Pose (Estimated); (6.333, -0.683, -14.9 degrees)
+1678668489298; SmartDashboard; Wheel Encoder Positions; (0.000, 0.635)
+1678668489298; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668489298; SmartDashboard; Pose (LimeLight); null
+1678668489430; SmartDashboard; Pose (Estimated); (6.342, -0.687, -15.0 degrees)
+1678668489430; SmartDashboard; Wheel Encoder Positions; (0.000, 0.645)
+1678668489430; limelight; botpose; [6.383933574846373, -0.7095646134059675, 0.35929401945631145, 2.9507080405600745, 0.15851980314908756, -23.856035348396667]
+1678668489430; SmartDashboard; Pose (LimeLight); (6.384, -0.710, -23.9 degrees)
+1678668489526; SmartDashboard; Pose (Estimated); (6.352, -0.691, -15.1 degrees)
+1678668489526; SmartDashboard; Wheel Encoder Positions; (0.000, 0.655)
+1678668489526; limelight; botpose; [6.39642512588099, -0.7165075199362388, 0.3604915128539396, 2.92190200650726, 0.26206496156092307, -24.40354990663073]
+1678668489526; SmartDashboard; Pose (LimeLight); (6.396, -0.717, -24.4 degrees)
+1678668489599; SmartDashboard; Pose (Estimated); (6.361, -0.695, -15.2 degrees)
+1678668489599; SmartDashboard; Wheel Encoder Positions; (0.000, 0.665)
+1678668489599; limelight; botpose; [6.404865057220082, -0.7183043302508128, 0.35581147499806165, 3.0652115805217095, -0.023255557156429792, -24.811690730431557]
+1678668489699; limelight; botpose; [6.426499106644584, -0.7304168100540597, 0.36043453359284877, 3.061110214366783, 0.29572216678194513, -25.932896115953497]
+1678668489699; SmartDashboard; Pose (Estimated); (6.371, -0.699, -15.4 degrees)
+1678668489699; SmartDashboard; Wheel Encoder Positions; (0.000, 0.674)
+1678668489699; SmartDashboard; Pose (LimeLight); (6.426, -0.730, -25.9 degrees)
+1678668489799; SmartDashboard; Pose (Estimated); (6.386, -0.707, -16.8 degrees)
+1678668489799; SmartDashboard; Wheel Encoder Positions; (0.000, 0.683)
+1678668489799; limelight; botpose; [6.4339826664977515, -0.7369064733494325, 0.36493581463735053, 2.908763054615828, 0.6161982734749487, -26.189780555141642]
+1678668489799; SmartDashboard; Pose (LimeLight); (6.434, -0.737, -26.2 degrees)
+1678668489898; SmartDashboard; Pose (Estimated); (6.395, -0.711, -17.2 degrees)
+1678668489898; SmartDashboard; Wheel Encoder Positions; (0.000, 0.690)
+1678668489898; limelight; botpose; [6.442707449359494, -0.7416020602014834, 0.36663138957043256, 3.013435732829486, 0.7313390622020557, -26.414736438510435]
+1678668489899; SmartDashboard; Pose (LimeLight); (6.443, -0.742, -26.4 degrees)
+1678668490000; SmartDashboard; Pose (Estimated); (6.403, -0.715, -17.8 degrees)
+1678668490000; SmartDashboard; Wheel Encoder Positions; (0.000, 0.694)
+1678668490000; limelight; botpose; [6.453316222760954, -0.7442685765890936, 0.3630278124317021, 3.061014777547219, 0.5358672083656654, -26.795265566989904]
+1678668490000; SmartDashboard; Pose (LimeLight); (6.453, -0.744, -26.8 degrees)
+1678668490099; limelight; botpose; [6.457577811118737, -0.7490758578579885, 0.37015143285188584, 2.9234987521816427, 1.0116279031523545, -26.768093522683323]
+1678668490099; SmartDashboard; Pose (LimeLight); (6.458, -0.749, -26.8 degrees)
+1678668490099; SmartDashboard; Pose (Estimated); (6.408, -0.719, -18.7 degrees)
+1678668490200; limelight; botpose; [6.4659520544264, -0.7505621097690587, 0.36561289165379607, 2.9496363964595114, 0.7121864442874009, -26.985177316175037]
+1678668490200; SmartDashboard; Pose (LimeLight); (6.466, -0.751, -27.0 degrees)
+1678668490200; SmartDashboard; Pose (Estimated); (6.413, -0.722, -19.5 degrees)
+1678668490322; SmartDashboard; Pose (Estimated); (6.423, -0.728, -21.0 degrees)
+1678668490322; SmartDashboard; Wheel Encoder Positions; (0.000, 0.693)
+1678668490322; limelight; botpose; [6.463250704576985, -0.7558373146627859, 0.36637297058423357, 2.931786998264196, 0.7656949793252811, -26.591778174505098]
+1678668490323; SmartDashboard; Pose (LimeLight); (6.463, -0.756, -26.6 degrees)
+1678668490400; limelight; botpose; [6.463087090265272, -0.7505697874857226, 0.37155223446221886, 2.822433968468956, 1.0990471567866216, -26.819548306179634]
+1678668490400; SmartDashboard; Pose (LimeLight); (6.463, -0.751, -26.8 degrees)
+1678668490400; SmartDashboard; Pose (Estimated); (6.425, -0.729, -21.8 degrees)
+1678668490400; SmartDashboard; Wheel Encoder Positions; (0.000, 0.690)
+1678668490500; SmartDashboard; Pose (Estimated); (6.423, -0.730, -23.2 degrees)
+1678668490500; SmartDashboard; Wheel Encoder Positions; (0.000, 0.679)
+1678668490500; limelight; botpose; [6.45367971750847, -0.753369017803551, 0.36704396275359596, 2.903764478265406, 0.8180436045324055, -26.306241195919316]
+1678668490500; SmartDashboard; Pose (LimeLight); (6.454, -0.753, -26.3 degrees)
+1678668490600; SmartDashboard; Pose (Estimated); (6.422, -0.730, -24.2 degrees)
+1678668490600; SmartDashboard; Wheel Encoder Positions; (0.000, 0.670)
+1678668490600; limelight; botpose; [6.4463825042417175, -0.7526219937094257, 0.37470550417621856, 2.6323073648828004, 1.3137730455986674, -26.100960067463404]
+1678668490600; SmartDashboard; Pose (LimeLight); (6.446, -0.753, -26.1 degrees)
+1678668490700; SmartDashboard; Pose (Estimated); (6.419, -0.730, -25.1 degrees)
+1678668490700; SmartDashboard; Wheel Encoder Positions; (0.000, 0.662)
+1678668490700; limelight; botpose; [6.4187242937460995, -0.7430870843589237, 0.37861195893178445, 2.401910460348805, 1.457602726770056, -25.040152060320132]
+1678668490700; SmartDashboard; Pose (LimeLight); (6.419, -0.743, -25.0 degrees)
+1678668490805; SmartDashboard; Pose (Estimated); (6.414, -0.730, -25.6 degrees)
+1678668490806; SmartDashboard; Wheel Encoder Positions; (0.000, 0.654)
+1678668490806; limelight; botpose; [6.404326893076968, -0.7357663918536099, 0.3781872137730209, 2.2761214044112625, 1.390904653645946, -23.93268057112062]
+1678668490806; SmartDashboard; Pose (LimeLight); (6.404, -0.736, -23.9 degrees)
+1678668490900; SmartDashboard; Pose (Estimated); (6.408, -0.728, -26.1 degrees)
+1678668490900; SmartDashboard; Wheel Encoder Positions; (0.000, 0.644)
+1678668490900; limelight; botpose; [6.387270376961401, -0.7287171963935973, 0.3832176287352807, 2.1027178219533758, 1.639098665302478, -22.513456874079846]
+1678668490900; SmartDashboard; Pose (LimeLight); (6.387, -0.729, -22.5 degrees)
+1678668491048; SmartDashboard; Pose (Estimated); (6.401, -0.725, -26.4 degrees)
+1678668491048; SmartDashboard; Wheel Encoder Positions; (0.000, 0.635)
+1678668491048; limelight; botpose; [6.374337374797236, -0.7126816065963286, 0.39101487720636124, 1.913145228287354, 2.0387420493476127, -21.406267174166288]
+1678668491048; SmartDashboard; Pose (LimeLight); (6.374, -0.713, -21.4 degrees)
+1678668491109; SmartDashboard; Pose (Estimated); (6.392, -0.721, -26.4 degrees)
+1678668491110; SmartDashboard; Wheel Encoder Positions; (0.000, 0.627)
+1678668491110; limelight; botpose; [6.350157723176503, -0.7058783186730107, 0.40704938657410794, 1.61398800983986, 2.9209659190375503, -19.42131789728527]
+1678668491110; SmartDashboard; Pose (LimeLight); (6.350, -0.706, -19.4 degrees)
+1678668491215; SmartDashboard; Pose (Estimated); (6.383, -0.716, -26.2 degrees)
+1678668491215; SmartDashboard; Wheel Encoder Positions; (0.000, 0.619)
+1678668491215; limelight; botpose; [6.333420470266511, -0.6863506041851813, 0.41006780310144414, 1.5056713370731232, 2.9860410064063454, -17.942858313002695]
+1678668491215; SmartDashboard; Pose (LimeLight); (6.333, -0.686, -17.9 degrees)
+1678668491327; SmartDashboard; Pose (Estimated); (6.373, -0.710, -26.1 degrees)
+1678668491327; SmartDashboard; Wheel Encoder Positions; (0.000, 0.609)
+1678668491327; limelight; botpose; [6.326005222080582, -0.6790149731747276, 0.4052066357932179, 1.6789707235026388, 2.6451265442295777, -16.96950645987022]
+1678668491327; SmartDashboard; Pose (LimeLight); (6.326, -0.679, -17.0 degrees)
+1678668491400; SmartDashboard; Pose (Estimated); (6.361, -0.703, -25.6 degrees)
+1678668491400; SmartDashboard; Wheel Encoder Positions; (0.000, 0.601)
+1678668491400; limelight; botpose; [6.2899567363576265, -0.6588757817009903, 0.43076807988162746, 1.3996300338327832, 3.904570421321622, -13.572221354702558]
+1678668491401; SmartDashboard; Pose (LimeLight); (6.290, -0.659, -13.6 degrees)
+1678668491519; SmartDashboard; Pose (Estimated); (6.348, -0.696, -24.9 degrees)
+1678668491519; limelight; botpose; [6.268849448517212, -0.643833452105467, 0.4297467111071106, 1.5084719879730502, 3.694676405043062, -11.298336086586678]
+1678668491519; SmartDashboard; Wheel Encoder Positions; (0.000, 0.592)
+1678668491519; SmartDashboard; Pose (LimeLight); (6.269, -0.644, -11.3 degrees)
+1678668491599; limelight; botpose; [6.220644368164912, -0.6133474864527272, 0.4063676395239046, 1.784146347156449, 2.106976688001076, -6.610538339591943]
+1678668491600; SmartDashboard; Pose (LimeLight); (6.221, -0.613, -6.6 degrees)
+1678668491600; SmartDashboard; Pose (Estimated); (6.333, -0.688, -24.0 degrees)
+1678668491600; SmartDashboard; Wheel Encoder Positions; (0.000, 0.584)
+1678668491700; SmartDashboard; Pose (Estimated); (6.310, -0.666, -21.3 degrees)
+1678668491700; SmartDashboard; Wheel Encoder Positions; (0.000, 0.577)
+1678668491700; limelight; botpose; [6.228873461071259, -0.5483217336795774, 0.37600879944761745, 1.5436832847008097, 0.48149739785439655, -6.896932101987165]
+1678668491700; SmartDashboard; Pose (LimeLight); (6.229, -0.548, -6.9 degrees)
+1678668491800; SmartDashboard; Pose (Estimated); (6.306, -0.665, -21.9 degrees)
+1678668491800; SmartDashboard; Wheel Encoder Positions; (0.000, 0.570)
+1678668491800; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668491800; SmartDashboard; Pose (LimeLight); null
+1678668491902; SmartDashboard; Pose (Estimated); (6.303, -0.664, -22.5 degrees)
+1678668491902; SmartDashboard; Wheel Encoder Positions; (0.000, 0.563)
+1678668491999; SmartDashboard; Pose (Estimated); (6.300, -0.662, -23.1 degrees)
+1678668491999; SmartDashboard; Wheel Encoder Positions; (0.000, 0.556)
+1678668492125; SmartDashboard; Pose (Estimated); (6.297, -0.661, -23.6 degrees)
+1678668492125; SmartDashboard; Wheel Encoder Positions; (0.000, 0.550)
+1678668492201; SmartDashboard; Pose (Estimated); (6.297, -0.661, -23.7 degrees)
+1678668492201; SmartDashboard; Wheel Encoder Positions; (0.000, 0.549)
+1678668492605; SmartDashboard; Pose (Estimated); (6.299, -0.662, -23.4 degrees)
+1678668492606; SmartDashboard; Wheel Encoder Positions; (0.000, 0.553)
+1678668492606; SmartDashboard; Pose (Estimated); (6.304, -0.664, -22.3 degrees)
+1678668492606; SmartDashboard; Wheel Encoder Positions; (0.000, 0.566)
+1678668492700; SmartDashboard; Pose (Estimated); (6.311, -0.667, -21.0 degrees)
+1678668492700; SmartDashboard; Wheel Encoder Positions; (0.000, 0.580)
+1678668492799; SmartDashboard; Pose (Estimated); (6.317, -0.669, -19.9 degrees)
+1678668492800; SmartDashboard; Wheel Encoder Positions; (0.000, 0.592)
+1678668492899; SmartDashboard; Pose (Estimated); (6.322, -0.671, -18.9 degrees)
+1678668492900; SmartDashboard; Wheel Encoder Positions; (0.000, 0.603)
+1678668492999; SmartDashboard; Pose (Estimated); (6.327, -0.673, -18.0 degrees)
+1678668492999; SmartDashboard; Wheel Encoder Positions; (0.000, 0.615)
+1678668493144; SmartDashboard; Pose (Estimated); (6.333, -0.674, -17.0 degrees)
+1678668493144; SmartDashboard; Wheel Encoder Positions; (0.000, 0.626)
+1678668493199; SmartDashboard; Pose (Estimated); (6.339, -0.676, -15.9 degrees)
+1678668493199; SmartDashboard; Wheel Encoder Positions; (0.000, 0.638)
+1678668493299; SmartDashboard; Pose (Estimated); (6.345, -0.678, -14.8 degrees)
+1678668493299; SmartDashboard; Wheel Encoder Positions; (0.000, 0.651)
+1678668493409; SmartDashboard; Pose (Estimated); (6.352, -0.680, -13.4 degrees)
+1678668493410; SmartDashboard; Wheel Encoder Positions; (0.000, 0.666)
+1678668493500; SmartDashboard; Pose (Estimated); (6.359, -0.681, -12.2 degrees)
+1678668493500; SmartDashboard; Wheel Encoder Positions; (0.000, 0.680)
+1678668493616; SmartDashboard; Pose (Estimated); (6.365, -0.683, -11.1 degrees)
+1678668493616; SmartDashboard; Wheel Encoder Positions; (0.000, 0.693)
+1678668493702; SmartDashboard; Pose (Estimated); (6.368, -0.683, -10.6 degrees)
+1678668493702; SmartDashboard; Wheel Encoder Positions; (0.000, 0.698)
+1678668493813; SmartDashboard; Pose (Estimated); (6.368, -0.683, -10.5 degrees)
+1678668493813; SmartDashboard; Wheel Encoder Positions; (0.000, 0.700)
+1678668494688; SmartDashboard; Pose (Estimated); (6.366, -0.683, -11.0 degrees)
+1678668494688; SmartDashboard; Wheel Encoder Positions; (0.000, 0.694)
+1678668494701; SmartDashboard; Pose (Estimated); (6.351, -0.680, -13.5 degrees)
+1678668494702; SmartDashboard; Wheel Encoder Positions; (0.000, 0.665)
+1678668494801; SmartDashboard; Pose (Estimated); (6.339, -0.677, -15.8 degrees)
+1678668494801; SmartDashboard; Wheel Encoder Positions; (0.000, 0.640)
+1678668494901; SmartDashboard; Pose (Estimated); (6.323, -0.672, -18.7 degrees)
+1678668494901; SmartDashboard; Wheel Encoder Positions; (0.000, 0.606)
+1678668495001; SmartDashboard; Pose (Estimated); (6.307, -0.666, -21.8 degrees)
+1678668495002; SmartDashboard; Wheel Encoder Positions; (0.000, 0.571)
+1678668495102; SmartDashboard; Pose (Estimated); (6.290, -0.658, -25.1 degrees)
+1678668495102; SmartDashboard; Wheel Encoder Positions; (0.000, 0.534)
+1678668495241; SmartDashboard; Pose (Estimated); (6.273, -0.650, -28.4 degrees)
+1678668495241; SmartDashboard; Wheel Encoder Positions; (0.000, 0.496)
+1678668495302; SmartDashboard; Pose (Estimated); (6.256, -0.640, -31.8 degrees)
+1678668495302; SmartDashboard; Wheel Encoder Positions; (0.000, 0.457)
+1678668495403; SmartDashboard; Pose (Estimated); (6.240, -0.630, -35.1 degrees)
+1678668495403; SmartDashboard; Wheel Encoder Positions; (0.000, 0.419)
+1678668495513; SmartDashboard; Pose (Estimated); (6.225, -0.619, -38.4 degrees)
+1678668495514; SmartDashboard; Wheel Encoder Positions; (0.000, 0.382)
+1678668495603; SmartDashboard; Pose (Estimated); (6.210, -0.607, -41.7 degrees)
+1678668495603; SmartDashboard; Wheel Encoder Positions; (0.000, 0.344)
+1678668495711; SmartDashboard; Pose (Estimated); (6.196, -0.594, -45.2 degrees)
+1678668495711; SmartDashboard; Wheel Encoder Positions; (0.000, 0.305)
+1678668495804; SmartDashboard; Pose (Estimated); (6.184, -0.581, -48.2 degrees)
+1678668495804; SmartDashboard; Wheel Encoder Positions; (0.000, 0.270)
+1678668495904; SmartDashboard; Pose (Estimated); (6.173, -0.568, -51.3 degrees)
+1678668495904; SmartDashboard; Wheel Encoder Positions; (0.000, 0.236)
+1678668496003; SmartDashboard; Pose (Estimated); (6.162, -0.554, -54.4 degrees)
+1678668496004; SmartDashboard; Wheel Encoder Positions; (0.000, 0.201)
+1678668496105; SmartDashboard; Pose (Estimated); (6.153, -0.540, -57.3 degrees)
+1678668496105; SmartDashboard; Wheel Encoder Positions; (0.000, 0.167)
+1678668496291; SmartDashboard; Pose (Estimated); (6.144, -0.526, -60.3 degrees)
+1678668496291; SmartDashboard; Wheel Encoder Positions; (0.000, 0.134)
+1678668496319; SmartDashboard; Pose (Estimated); (6.135, -0.509, -63.6 degrees)
+1678668496319; SmartDashboard; Wheel Encoder Positions; (0.000, 0.102)
+1678668496435; SmartDashboard; Wheel Encoder Positions; (0.000, 0.071)
+1678668496435; SmartDashboard; Pose (Estimated); (6.130, -0.498, -65.8 degrees)
+1678668496535; SmartDashboard; Pose (Estimated); (6.124, -0.485, -68.3 degrees)
+1678668496535; SmartDashboard; Wheel Encoder Positions; (0.000, 0.042)
+1678668496603; SmartDashboard; Pose (Estimated); (6.120, -0.475, -70.2 degrees)
+1678668496603; SmartDashboard; Wheel Encoder Positions; (0.000, 0.021)
+1678668498955; SmartDashboard; Pose (Estimated); (6.111, -0.449, -75.1 degrees)
+1678668498955; SmartDashboard; Wheel Encoder Positions; (0.000, -0.035)
+1678668501009; limelight; botpose; [-0.20000000298023224, 0.0, -0.30000001192092896, 89.9999239850482, -89.9999239850482, 8.537736462515939E-7]
+1678668501010; SmartDashboard; Pose (LimeLight); (-0.200, 0.000, 0.0 degrees)
+1678668501107; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668501107; SmartDashboard; Pose (LimeLight); null
+1678668502949; limelight; botpose; [-0.20000000298023224, 0.0, -0.30000001192092896, 89.9999239850482, -89.9999239850482, 8.537736462515939E-7]
+1678668502949; SmartDashboard; Pose (LimeLight); (-0.200, 0.000, 0.0 degrees)
+1678668503013; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668503013; SmartDashboard; Pose (LimeLight); null
+1678668507430; SmartDashboard; Pose (Estimated); (6.110, -0.444, -75.8 degrees)
+1678668507430; SmartDashboard; Wheel Encoder Positions; (0.000, -0.043)
+1678668507533; SmartDashboard; Pose (Estimated); (6.108, -0.438, -76.9 degrees)
+1678668507533; SmartDashboard; Wheel Encoder Positions; (0.000, -0.056)
+1678668507534; limelight; botpose; [-6.9423684644959325, -3.872948878094041, 3.974783785192178, 41.94065304543871, 70.35825111545647, 48.724776819666516]
+1678668507534; SmartDashboard; Pose (LimeLight); (-6.942, -3.873, 48.7 degrees)
+1678668507630; limelight; botpose; [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+1678668507630; SmartDashboard; Pose (LimeLight); null
+1678668507631; SmartDashboard; Pose (Estimated); (6.106, -0.430, -78.5 degrees)
+1678668507631; SmartDashboard; Wheel Encoder Positions; (0.000, -0.074)
+1678668507731; SmartDashboard; Pose (Estimated); (6.104, -0.418, -80.6 degrees)
+1678668507731; SmartDashboard; Wheel Encoder Positions; (0.000, -0.098)
+1678668507832; SmartDashboard; Pose (Estimated); (6.102, -0.405, -82.9 degrees)
+1678668507832; SmartDashboard; Wheel Encoder Positions; (0.000, -0.124)
+1678668507931; SmartDashboard; Pose (Estimated); (6.100, -0.390, -85.6 degrees)
+1678668507932; SmartDashboard; Wheel Encoder Positions; (0.000, -0.155)
+1678668508031; SmartDashboard; Pose (Estimated); (6.100, -0.372, -88.7 degrees)
+1678668508031; SmartDashboard; Wheel Encoder Positions; (0.000, -0.190)
+1678668508132; SmartDashboard; Pose (Estimated); (6.100, -0.353, -92.0 degrees)
+1678668508132; SmartDashboard; Wheel Encoder Positions; (0.000, -0.227)
+1678668508132; limelight; botpose; [5.5002337439973825, -0.38844932001221355, 0.3279481587100891, 1.6306275198073101, -1.3006783753184685, 2.4031055307181397]
+1678668508132; SmartDashboard; Pose (LimeLight); (5.500, -0.388, 2.4 degrees)
+1678668508233; SmartDashboard; Pose (Estimated); (6.101, -0.333, -95.7 degrees)
+1678668508233; SmartDashboard; Wheel Encoder Positions; (0.000, -0.269)
+1678668508233; limelight; botpose; [5.392269662757964, -0.5704685805760232, 0.34418948143631867, 1.6976637679667774, -0.7123104010741411, 6.637892662631355]
+1678668508234; SmartDashboard; Pose (LimeLight); (5.392, -0.570, 6.6 degrees)
+1678668508332; SmartDashboard; Pose (Estimated); (6.103, -0.311, -99.5 degrees)
+1678668508332; SmartDashboard; Wheel Encoder Positions; (0.000, -0.312)
+1678668508332; limelight; botpose; [5.343852908043889, -0.647709215760881, 0.34445429430735697, 1.8154148135280472, -0.6774619176723102, 7.804877371120456]
+1678668508332; SmartDashboard; Pose (LimeLight); (5.344, -0.648, 7.8 degrees)
+1678668508432; SmartDashboard; Pose (Estimated); (6.108, -0.289, -103.4 degrees)
+1678668508432; SmartDashboard; Wheel Encoder Positions; (0.000, -0.357)
+1678668508432; limelight; botpose; [5.336508922648874, -0.6477898482350409, 0.3662552901067731, 1.8783911447114896, 0.048379335379968996, 7.108423028754073]
+1678668508432; SmartDashboard; Pose (LimeLight); (5.337, -0.648, 7.1 degrees)
+1678668508543; SmartDashboard; Pose (Estimated); null
+1678668508543; SmartDashboard; Wheel Encoder Positions; (0.000, -0.400)
+1678668508543; limelight; botpose; [5.299895951290669, -0.6713281101716357, 0.4071406601043605, 2.1290988166066134, 1.275462123800647, 6.498775659919205]
+1678668508543; SmartDashboard; Pose (LimeLight); (5.300, -0.671, 6.5 degrees)
+1678668508672; SmartDashboard; Wheel Encoder Positions; (0.000, -0.440)
+1678668508672; limelight; botpose; [5.275509608943137, -0.6591059707141877, 0.4211268919757111, 2.3612561967014063, 1.5892953550933586, 4.791166602143088]
+1678668508672; SmartDashboard; Pose (LimeLight); (5.276, -0.659, 4.8 degrees)
+1678668508672; SmartDashboard; Pose (Estimated); (5.260, -0.660, 2.0 degrees)
+1678668508733; limelight; botpose; [5.235589655908786, -0.6790308707118805, 0.3911982954629316, 2.321302585378328, 0.7245562387091264, 4.118035097123897]
+1678668508733; SmartDashboard; Pose (Estimated); (5.238, -0.662, -1.2 degrees)
+1678668508734; SmartDashboard; Wheel Encoder Positions; (0.000, -0.479)
+1678668508734; SmartDashboard; Pose (LimeLight); (5.236, -0.679, 4.1 degrees)
+1678668508893; limelight; botpose; [5.186596638475186, -0.6334465609376321, 0.3992298404167168, 2.192025238825667, 1.011110470343256, 0.8215693982273049]
+1678668508893; SmartDashboard; Pose (LimeLight); (5.209, -0.668, 2.6 degrees)
+1678668508894; SmartDashboard; Pose (Estimated); (5.212, -0.663, -4.1 degrees)
+1678668508894; SmartDashboard; Wheel Encoder Positions; (0.000, -0.517)
+1678668508934; SmartDashboard; Wheel Encoder Positions; (0.000, -0.552)
+1678668508934; SmartDashboard; Pose (Estimated); (5.198, -0.661, -6.6 degrees)
+1678668508934; limelight; botpose; [5.163174883397708, -0.6453971409488362, 0.3184605299345423, 1.8873557191613617, -1.1249521014017236, 0.4122603239885131]
+1678668508935; SmartDashboard; Pose (LimeLight); (5.163, -0.645, 0.4 degrees)
+1678668509035; SmartDashboard; Pose (Estimated); (5.173, -0.652, -8.3 degrees)
+1678668509035; SmartDashboard; Wheel Encoder Positions; (0.000, -0.587)
+1678668509035; limelight; botpose; [5.1440383812934956, -0.6046998397232101, 0.39116837360853746, 2.322606508458173, 0.7065847326494522, -1.243657943752787]
+1678668509035; SmartDashboard; Pose (LimeLight); (5.144, -0.605, -1.2 degrees)
+1678668509135; SmartDashboard; Pose (Estimated); (5.163, -0.651, -10.1 degrees)
+1678668509136; SmartDashboard; Wheel Encoder Positions; (0.000, -0.608)
+1678668509136; limelight; botpose; [5.103765795546642, -0.6368226316299969, 0.3942836689779628, 2.4004700541205244, 0.8593763234748383, -0.8278825051677727]
+1678668509236; limelight; botpose; [5.086648625929413, -0.6127335914059499, 0.38434192644717124, 2.3757984818137006, 0.5331472789447121, -1.8961056980679185]
+1678668509343; limelight; botpose; [5.055996674138273, -0.6114414148919679, 0.44756241284441245, 2.3628422666214632, 2.2886874016472, -2.2684627571786513]
