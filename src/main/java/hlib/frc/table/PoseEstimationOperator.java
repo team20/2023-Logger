@@ -1,6 +1,7 @@
 package hlib.frc.table;
 
 import hlib.drive.Pose;
+import hlib.drive.RobotPoseEstimator;
 import hlib.drive.RobotPoseEstimatorWeighted;
 import hlib.frc.table.SubscriptionSchema.DataType;
 
@@ -35,27 +36,58 @@ public class PoseEstimationOperator extends Operator {
 				output(record);
 			if (record.topicName().equals("botpose")) {
 				double[] botpose = (double[]) record.value();
-				Pose poseDetected = createPose(botpose);
-				output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Pose (LimeLight)", DataType.STRING,
-						"" + poseDetected));
-				poseEstimator.update(poseDetected);
-				output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Pose (Estimated)", DataType.STRING,
-						"" + poseEstimator.poseEstimated()));
-				output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Max Pose Inconsisency",
-						DataType.STRING, "" + poseEstimator.largestPoseInconsistency()));
-			} else if (record.topicName().equals("Wheel Encoder Positions")) {
-				double[] positions = ReaderOperator.doubleArray((String) record.value());
-				poseEstimator.update(positions[0], positions[1]); // TODO: to check
-				output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Pose (Estimated)", DataType.STRING,
-						"" + poseEstimator.poseEstimated()));
-			}
+				Pose poseDetected = new Pose(botpose[0], botpose[1], botpose[5] * Math.PI / 180 + Math.PI);
+				if (poseDetected != null) {
+					if (isValid(poseDetected, poseEstimator))
+						poseEstimator.update(poseDetected); //
+					output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Pose (LimeLight)",
+							DataType.STRING, "" + poseDetected));
+					output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Pose (Estimated)",
+							DataType.STRING, "" + poseEstimator.poseEstimated()));
+					output(new SubscriptionRecord(record.timestamp(), "SmartDashboard", "Max Pose Inconsisency",
+							DataType.STRING, "" + poseEstimator.largestPoseInconsistency()));
+				}
+			} else if (record.topicName().equals("Wheel Encoder Positions"))
+				handleWheelEncoderPositions(record);
+			else if (record.topicName().equals("Heading"))
+				handleHeading(record);
 		} catch (Exception e) {
 			// output(toString(r.timestamp(), "SmartDashboard", "Pose (LimeLight)", null));
 		}
 	}
 
-	public static Pose createPose(double[] botpose) {
-		return new Pose(botpose[0], botpose[1], -botpose[5] * Math.PI / 180);
+	boolean isValid(Pose poseDetected, RobotPoseEstimator poseEstimator) {
+		Pose poseEstimated = poseEstimator.poseEstimated();
+		return poseDetected != null && Math.abs(poseDetected.x()) > 4.7 && Math.abs(poseDetected.x()) < 7
+				&& (poseEstimated == null || (Math.abs(poseEstimated.x()) > 4.7 && Math.abs(poseEstimated.x()) < 7));
 	}
+
+	protected void handleHeading(SubscriptionRecord record) {
+		recentRecordHeading = record;
+		if (recentRecordWheelEncoderPositions != null
+				&& record.timestamp() - recentRecordWheelEncoderPositions.timestamp() < 2) {
+			handleRecentRedords();
+		}
+	}
+
+	protected void handleWheelEncoderPositions(SubscriptionRecord record) {
+		recentRecordWheelEncoderPositions = record;
+		if (recentRecordHeading != null && record.timestamp() - recentRecordHeading.timestamp() < 2) {
+			handleRecentRedords();
+		}
+	}
+
+	protected void handleRecentRedords() {
+		double[] positions = ReaderOperator.doubleArray((String) recentRecordWheelEncoderPositions.value());
+		Double yaw = (Double) recentRecordHeading.value();
+		poseEstimator.update(positions[0], positions[1], yaw * Math.PI / 180);
+		output(new SubscriptionRecord(
+				Math.max(recentRecordHeading.timestamp(), recentRecordWheelEncoderPositions.timestamp()),
+				"SmartDashboard", "Pose (Estimated)", DataType.STRING, "" + poseEstimator.poseEstimated()));
+	}
+
+	SubscriptionRecord recentRecordHeading = null;
+
+	SubscriptionRecord recentRecordWheelEncoderPositions = null;
 
 }

@@ -8,6 +8,7 @@ import hlib.frc.table.Operator;
 import hlib.frc.table.RelayOperator;
 import hlib.frc.table.SubscriptionRecord;
 import hlib.frc.table.SubscriptionSchema.DataType;
+import javafx.scene.control.MenuBar;
 
 /**
  * @author Jeong-Hyon Hwang (jhhbrown@gmail.com)
@@ -52,6 +53,10 @@ public class Visualizer extends FRC2023Visualizer {
 		SubscriptionRecord record = new SubscriptionRecord(System.currentTimeMillis(), "SmartDashboard", key,
 				DataType.STRING, value);
 		outputOperator.output(record);
+	}
+
+	@Override
+	protected void setup(MenuBar menuBar) {
 	}
 
 }

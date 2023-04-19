@@ -1,4 +1,4 @@
-package hlib.frc.util;
+package hlib.frc;
 
 import java.io.File;
 import java.util.HashMap;

@@ -149,6 +149,25 @@ public abstract class Visualizer extends Application {
 	/**
 	 * Adds a {@code Box} as a child of the specified {@code Group} node.
 	 * 
+	 * @param rectangle
+	 *            a {@code Rectangle2D} defining the x and y coordinate values of the {@code Box}
+	 * @param z1
+	 *            the z coordinate value of 1st corner of the {@code Box}
+	 * @param z2
+	 *            the z coordinate value of 2nd corner (the opposite corner of the 1st corner) of the {@code Box}
+	 * @param c
+	 *            the {@code Color} of the {@code Box}
+	 * @param g
+	 *            a {@code Group} node
+	 * @return the {@code Box} added
+	 */
+	protected void addBox(Rectangle2D rectangle, double z1, double z2, Color c, Group g) {
+		addBox(rectangle.getMinX(), rectangle.getMinY(), z1, rectangle.getMaxX(), rectangle.getMaxY(), z2, c, g);
+	}
+
+	/**
+	 * Adds a {@code Box} as a child of the specified {@code Group} node.
+	 * 
 	 * @param x1
 	 *            the x coordinate value of 1st corner of the {@code Box}
 	 * @param y1

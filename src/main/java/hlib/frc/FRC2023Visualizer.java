@@ -7,12 +7,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import hlib.drive.Pose;
-import hlib.frc.table.PoseEstimationOperator;
 import hlib.frc.table.SubscriptionRecord;
 import hlib.frc.table.SubscriptionSchema.DataType;
-import hlib.frc.util.AprilTagMap;
-import hlib.frc.util.PoseMap;
-import hlib.frc.util.TargetChooserLabelList;
 import hlib.visualization.SmartDashboardImpl;
 import hlib.visualization.Visualizer;
 import javafx.collections.FXCollections;
@@ -20,15 +16,22 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Group;
+import javafx.scene.Node;
 import javafx.scene.PerspectiveCamera;
 import javafx.scene.Scene;
 import javafx.scene.SceneAntialiasing;
 import javafx.scene.SubScene;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.MenuBar;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TableView;
+import javafx.scene.control.ToggleButton;
+import javafx.scene.control.ToggleGroup;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
@@ -48,27 +51,35 @@ import javafx.stage.Stage;
  */
 public abstract class FRC2023Visualizer extends Visualizer {
 
-	/**
-	 * The path to the "deploy" directory.
-	 */
-	public static String deployPath = "." + File.separator + "src" + File.separator + "main" + File.separator
-			+ "deploy";
+	protected String deployPath() {
+		return "." + File.separator + "src" + File.separator + "main" + File.separator + "deploy";
+	}
 
 	/**
-	 * The {@code TargetChooserLabelList} used by this {@code Visualizer}.
+	 * The {@code TargetChooserMap} used by this {@code Visualizer}.
 	 */
-	TargetChooserLabelList targetChooserLabels = new TargetChooserLabelList(
-			deployPath + File.separator + "configuration.json");
+	TargetChooserMap targetChooserMap = new TargetChooserMap(deployPath() + File.separator + "configuration.json");
 
 	/**
-	 * The {@code PoseMap} used by this {@code Visualizer}.
+	 * The {@code TargetMap} used by this {@code Visualizer}.
 	 */
-	PoseMap poseMap = new PoseMap(deployPath + File.separator + "configuration.json");
+	protected TargetMapColorCoded targetMap = new TargetMapColorCoded(
+			deployPath() + File.separator + "configuration.json");
+
+	/**
+	 * The {@code PathMap} used by this {@code Visualizer}.
+	 */
+	protected PathMap pathMap = new PathMap(deployPath() + File.separator + "configuration.json");
+
+	/**
+	 * The heading of this {@code Visualizer} on the field.
+	 */
+	double heading = -Math.PI / 2;
 
 	/**
 	 * The {@code AprilTagMap} used by this {@code Visualizer}.
 	 */
-	HashMap<Integer, Transform> aprilTags = new AprilTagMap(deployPath + File.separator + "frc2023.fmap");
+	HashMap<Integer, Transform> aprilTags = new AprilTagMap(deployPath() + File.separator + "frc2023.fmap");
 
 	/**
 	 * The label for the entry representing the estimated {@code Pose} of the robot.
@@ -89,6 +100,11 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * The label for the entry representing the ID of the current target.
 	 */
 	public static String labelTargetID = "Target ID";
+
+	/**
+	 * The label for the entry representing the ID of the current target.
+	 */
+	public static String labelTargetButton = "Target(Button)";
 
 	/**
 	 * The width of the field.
@@ -156,6 +172,19 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	protected static int column1Width = 150;
 
 	/**
+	 * The height of the menu bar.
+	 */
+	protected static int menuBarHeight = 60;
+
+	protected static Rectangle2D chargeStationRed = new Rectangle2D(3.41, 0.04 - 2.43, 1.91, 2.43);
+
+	protected static Rectangle2D chargeStationBlue = new Rectangle2D(-3.41 - 1.91, 0.04 - 2.43, 1.91, 2.43);
+
+	protected static Rectangle2D wallRed = new Rectangle2D(4.92, 1.60, 2.31, 0.1);
+
+	protected static Rectangle2D wallBlue = new Rectangle2D(-4.92 - 2.31, 1.60, 2.31, 0.1);
+
+	/**
 	 * The bitmap definitions of the AprilTags.
 	 */
 	protected static long[] apriltags16h5 = new long[] { 0x231bL, 0x2ea5L, 0x346aL, 0x45b9L, 0x79a6L, 0x7f6bL, 0xb358L,
@@ -186,10 +215,16 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * The {@code Text}s shown by this {@code FRC2023Visualizer}.
 	 */
 	protected LinkedList<Text> texts = new LinkedList<Text>();
+
 	/**
 	 * The {@code TopScene} used by this {@code FRC2023Visualizer}.
 	 */
 	protected TopScene topScene;
+
+	/**
+	 * the {@code Button} managed by this {@code FRC2023Visualizer}.
+	 */
+	protected HashMap<String, HashMap<String, ToggleButton>> buttons = new HashMap<String, HashMap<String, ToggleButton>>();
 
 	/**
 	 * A {@code TopScene} shows the field from the top.
@@ -240,6 +275,7 @@ public abstract class FRC2023Visualizer extends Visualizer {
 		 *            the angle defining the rotation
 		 */
 		public void rotateBy(double angle) {
+			heading = Pose.normalize(heading + angle * Math.PI / 180);
 			Rotate r = new Rotate(angle, Rotate.Z_AXIS);
 			for (Text text : texts)
 				text.getTransforms().add(r);
@@ -298,29 +334,48 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 */
 	@Override
 	protected Scene createScene(double width, double height) {
+		MenuBar menuBar = new MenuBar();
+		setup(menuBar);
 		SplitPane spMain = new SplitPane();
+		VBox root = new VBox(menuBar, spMain);
 		Group topView = new Group();
 		setUpField(topView);
 		setUpTargetPoses(topView);
-		setUpRobot(labelRobotPoseLimeLight, Color.GRAY, topView);
-		setUpRobot(labelRobotPoseEstimated, Color.LIGHTGREEN, topView);
-		topScene = new TopScene(topView, width - rightPanelWidth, height);
+		setUpRobot(labelRobotPoseLimeLight, 0.1, Color.GRAY, topView);
+		setUpRobot(labelRobotPoseEstimated, 0.1, Color.LIGHTGREEN, topView);
+		topScene = new TopScene(topView, width - rightPanelWidth, height - menuBarHeight);
 		topScene.rotateBy(-90);
 		topScene.setDistance(100);
 		spMain.getItems().addAll(topScene, createRightPane(height));
-		Scene scene = new Scene(spMain, width, height);
+		Scene scene = new Scene(root, width, height);
 		board.subscribe((String topicName, Object value) -> {
 			if (topicName.contains("botpose")) {
 				double[] botpose = (double[]) value;
-				changedRobotPose(labelRobotPoseLimeLight, PoseEstimationOperator.createPose(botpose));
+				changedRobotPose(labelRobotPoseLimeLight, createPose(botpose));
 			} else if (topicName.contains(labelRobotPoseEstimated)) {
-				Pose poseEstimated = Pose.parsePose((String) value);
+				Pose poseEstimated = parsePose((String) value);
 				changedRobotPose(labelRobotPoseEstimated, poseEstimated);
 			} else if (topicName.contains(labelTargetID))
 				this.changedTargetID((String) value);
+			else if (topicName.contains(labelTargetButton))
+				this.changedTargetButton((String) value);
 		});
 		return scene;
 	}
+
+	public static Pose createPose(double[] botpose) {
+		return new Pose(botpose[0], botpose[1], botpose[5] * Math.PI / 180 + Math.PI); // Aster - camera mounted in the
+																						// back
+		// return new Pose(botpose[0], botpose[1], -botpose[5] * Math.PI / 180);
+	}
+
+	/**
+	 * Sets up the specified {@code MenuBar}.
+	 * 
+	 * @param menuBar
+	 *            a {@code MenuBar}
+	 */
+	protected abstract void setup(MenuBar menuBar);
 
 	/**
 	 * Constructs a {@code Pane} that shows a table and configurable buttons.
@@ -330,18 +385,101 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * @return the constructed {@code Pane}
 	 */
 	protected Pane createRightPane(double height) {
+		int rightTopHeight = 200;
 		VBox rightBottom = new VBox();
 		int rowHeight = 30;
-		VBox rightPane = new VBox(setUpTable(tableView, rightPanelWidth - 5,
-				height - rowHeight * targetChooserLabels().size(), column1Width), rightBottom);
+		VBox rightPane = new VBox(createButtons(rightPanelWidth - 5, rightTopHeight), setUpTable(tableView,
+				rightPanelWidth - 5, height - rightTopHeight - rowHeight * targetChooserMap.size(), column1Width),
+				rightBottom);
 		board.putString(labelRobotPoseEstimated, "");
 		board.putString(labelRobotPoseLimeLight, "");
 		board.putString(labelWheelEncoderPositions, "");
-		for (String label : targetChooserLabels()) {
-			board.putString(label, "");
-			rightBottom.getChildren().add(addTargetSelector(label, targetIDs(), column1Width, 100));
+		for (Entry<String, String> e : targetChooserMap.entrySet()) {
+			board.putString(e.getKey(), "");
+			rightBottom.getChildren()
+					.add(addTargetSelector(e.getKey(), e.getValue(), targetIDs(), column1Width, rowHeight));
 		}
 		return rightPane;
+	}
+
+	Node createButtons(double width, double height) {
+		int rows = 3;
+		int columns = 9;
+		double buttonWidth = width / columns;
+		double buttonHeight = height / (rows + 1);
+		Image cone = new Image(new File(deployPath() + File.separator + "cone.png").toURI().toString());
+		Image cube = new Image(new File(deployPath() + File.separator + "cube.png").toURI().toString());
+
+		ToggleGroup group = new ToggleGroup();
+		GridPane grid = new GridPane();
+		grid.setPrefSize(width, height);
+		createButton(grid, "4l", buttonWidth, buttonHeight, 0, 0, group).setVisible(false);
+		createButton(grid, "4r", buttonWidth, buttonHeight, 1, 0, group).setVisible(false);
+		createButton(grid, "5l", buttonWidth, buttonHeight, 7, 0, group);
+		createButton(grid, "5r", buttonWidth, buttonHeight, 8, 0, group);
+		for (int r = 0; r < rows; r++)
+			for (int c = 0; c < columns; c++)
+				if (c % 3 == 1)
+					createButton(grid, cube, buttonWidth, buttonHeight, c, r + 1, group);
+				else
+					createButton(grid, cone, buttonWidth, buttonHeight, c, r + 1, group);
+		return grid;
+	}
+
+	ToggleButton createButton(GridPane grid, double buttonWidth, double buttonHeight, int columnIndex, int rowIndex,
+			ToggleGroup group) {
+		ToggleButton button = new ToggleButton();
+		button.setStyle("");
+		button.setPrefSize(buttonWidth, buttonHeight);
+		grid.add(button, columnIndex, rowIndex);
+		button.setFocusTraversable(false);
+		button.setToggleGroup(group);
+		return button;
+	}
+
+	ToggleButton createButton(GridPane grid, String label, double buttonWidth, double buttonHeight, int columnIndex,
+			int rowIndex, ToggleGroup group) {
+		ToggleButton button = createButton(grid, buttonWidth, buttonHeight, columnIndex, rowIndex, group);
+		button.setText(label);
+		addButton(button, label, "");
+		button.setOnAction(event -> {
+			if (!button.isSelected())
+				board.putString("Target(Button)", "");
+			else
+				board.putString("Target(Button)", label);
+		});
+		return button;
+	}
+
+	void addButton(ToggleButton button, String targetID, String suffix) {
+		HashMap<String, ToggleButton> m = buttons.get(targetID);
+		if (m == null) {
+			m = new HashMap<String, ToggleButton>();
+			buttons.put(targetID, m);
+		}
+		m.put(suffix, button);
+	}
+
+	ToggleButton createButton(GridPane grid, Image image, double buttonWidth, double buttonHeight, int columnIndex,
+			int rowIndex, ToggleGroup group) {
+		ToggleButton button = createButton(grid, buttonWidth, buttonHeight, columnIndex, rowIndex, group);
+		ImageView v = new ImageView(image);
+		v.setFitWidth(buttonWidth * 0.6);
+		v.setFitHeight(buttonHeight * 0.6);
+		button.setGraphic(v);
+		String lr = columnIndex % 3 == 1 ? "" : (columnIndex % 3 == 0 ? "l" : "r");
+		addButton(button, "" + (columnIndex / 3 + 6) + lr, "" + rowIndex);
+		addButton(button, "" + (columnIndex / 3 + 1) + lr, "" + rowIndex);
+		button.setOnAction(event -> {
+			if (!button.isSelected())
+				board.putString("Target(Button)", "");
+			else if (heading == 0) {
+				board.putString("Target(Button)", "" + (columnIndex / 3 + 6) + lr + " " + rowIndex);
+			} else {
+				board.putString("Target(Button)", "" + (columnIndex / 3 + 1) + lr + " " + rowIndex);
+			}
+		});
+		return button;
 	}
 
 	/**
@@ -377,6 +515,8 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * 
 	 * @param key
 	 *            the key representing a button
+	 * @param defaultValue
+	 *            the default value
 	 * @param targetIDs
 	 *            the IDs of the target poses
 	 * @param keyWidth
@@ -385,7 +525,8 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 *            the width of the {@code ComboBox}
 	 * @return a {@code Pane} containing the {@code ComboBox}
 	 */
-	protected Pane addTargetSelector(String key, String[] targetIDs, double keyWidth, double comboBoxWidth) {
+	protected Pane addTargetSelector(String key, String defaultValue, String[] targetIDs, double keyWidth,
+			double comboBoxWidth) {
 		Label label = new Label(key);
 		label.setPrefWidth(keyWidth);
 		ComboBox<String> comboBox = new ComboBox<String>(FXCollections.observableArrayList(targetIDs));
@@ -397,6 +538,8 @@ public abstract class FRC2023Visualizer extends Visualizer {
 				changed(key, comboBox.getValue());
 			}
 		});
+		comboBox.setValue(defaultValue);
+		changed(key, comboBox.getValue());
 		return tilePane;
 	}
 
@@ -413,9 +556,11 @@ public abstract class FRC2023Visualizer extends Visualizer {
 			LinkedList<Group> groupsRobot = this.robotID2groupsRobot.get(robotID);
 			if (groupsRobot != null)
 				for (Group group : groupsRobot) {
+					group.setVisible(false);
 					group.translateXProperty().set(scale * pose.x());
 					group.translateYProperty().set(scale * pose.y());
 					group.rotateProperty().set(pose.directionalAngle() * 180 / Math.PI);
+					group.setVisible(true);
 				}
 		}
 	}
@@ -428,10 +573,43 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 */
 	public void changedTargetID(String targetID) {
 		for (Entry<String, Box> e : targetID2Box.entrySet()) {
-			if (e.getKey().equals(targetID))
-				e.getValue().setMaterial(new PhongMaterial(Color.PINK));
+			e.getValue().setMaterial(
+					e.getKey().equals(targetID) ? new PhongMaterial(Color.PURPLE.interpolate(Color.WHITE, 0.5))
+							: new PhongMaterial(targetMap.color(e.getKey())));
+		}
+	}
+
+	/**
+	 * Is invoked when the target chooser button is changed.
+	 * 
+	 * @param buttonID
+	 *            the ID of the target chooser button
+	 */
+	public void changedTargetButton(String buttonID) {
+		try {
+			String[] tokens = buttonID.split(" ");
+			if (tokens.length == 2)
+				changedTargetButton(tokens[0].trim(), tokens[1].trim());
 			else
-				e.getValue().setMaterial(new PhongMaterial(Color.BEIGE));
+				changedTargetButton(tokens[0].trim(), "");
+		} catch (Exception e) {
+		}
+	}
+
+	/**
+	 * Is invoked when the target chooser button is changed.
+	 * 
+	 * @param targetID
+	 *            the ID of the new target
+	 */
+	public void changedTargetButton(String targetID, String suffix) {
+		System.out.println(targetID + " " + suffix);
+		try {
+			ToggleButton button = buttons.get(targetID).get(suffix);
+			if (button != null)
+				button.setSelected(true);
+		}
+		catch (Exception e) {
 		}
 	}
 
@@ -444,10 +622,14 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	protected void setUpField(Group... groups) {
 		for (Group group : groups) {
 			addBox(-fieldWidth / 2, -fieldLength / 2, 0, fieldWidth / 2, fieldLength / 2, -0.01, Color.WHITE, group);
+			addBox(chargeStationRed, 0, 0.1, TargetMapColorCoded.RED, group);
+			addBox(chargeStationBlue, 0, 0.1, TargetMapColorCoded.BLUE, group);
+			addBox(wallRed, 0, 0.4, TargetMapColorCoded.RED, group);
+			addBox(wallBlue, 0, 0.4, TargetMapColorCoded.BLUE, group);
 			for (int tagID : new int[] { 1, 2, 3, 5 })
-				setUpAprilTag(tagID, Color.PINK, group);
+				setUpAprilTag(tagID, TargetMapColorCoded.RED, group);
 			for (int tagID : new int[] { 4, 6, 7, 8 })
-				setUpAprilTag(tagID, Color.LIGHTBLUE, group);
+				setUpAprilTag(tagID, TargetMapColorCoded.BLUE, group);
 		}
 	}
 
@@ -500,12 +682,19 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	protected void setUpTargetPoses(Group group) {
 		for (String targetID : targetIDs()) {
 			Pose pose = targetPose(targetID);
-			Box box = addBox(pose.x() - robotLength / 2, pose.y() - robotWidth / 2, 0, pose.x() + robotLength / 2,
-					pose.y() + robotWidth / 2, 0.01, Color.BEIGE, group);
-			box.setRotate(pose.directionalAngle() * 180 / Math.PI);
+			Group groupPose = new Group();
+			Color color = targetMap.color(targetID);
+			Color color2 = targetMap.color(targetID).interpolate(Color.WHITE, 0.5);
+			Box box = addBox(robotLength / 2, -robotWidth / 2, 0, robotLength / 6, robotWidth / 2, 0.01, color,
+					groupPose);
+			addBox(-robotLength / 2, -robotWidth / 2, 0, robotLength / 6, robotWidth / 2, 0.01, color2, groupPose);
+			groupPose.setRotate(pose.directionalAngle() * 180 / Math.PI);
+			groupPose.setTranslateX(pose.x() * scale);
+			groupPose.setTranslateY(pose.y() * scale);
+			group.getChildren().add(groupPose);
 			targetID2Box.put(targetID, box);
 			Text t = new Text(targetID);
-			t.setFill(Color.DEEPPINK);
+			t.setFill(Color.BLACK);
 			t.getTransforms().add(new Rotate(180, Rotate.X_AXIS));
 			t.setTranslateX((pose.x() + 0.1) * scale);
 			t.setTranslateY((pose.y() - 0.1) * scale);
@@ -519,12 +708,14 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * 
 	 * @param robotID
 	 *            the ID of a {@code Robot}
+	 * @param robotHeight
+	 *            the height of a {@code Robot}
 	 * @param color
 	 *            the {@code Color} of a {@code Robot}
 	 * @param group
 	 *            a node {@code Group} to which the {@code Box}es are added
 	 */
-	protected void setUpRobot(String robotID, Color color, Group... groups) {
+	protected void setUpRobot(String robotID, double robotHeight, Color color, Group... groups) {
 		LinkedList<Group> groupsRobot = robotID2groupsRobot.get(robotID);
 		if (groupsRobot == null) {
 			groupsRobot = new LinkedList<Group>();
@@ -561,7 +752,7 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * @return the IDs of the targets
 	 */
 	protected String[] targetIDs() {
-		return poseMap.keySet().toArray(new String[0]);
+		return targetMap.keySet().toArray(new String[0]);
 	}
 
 	/**
@@ -583,8 +774,20 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 */
 	@Override
 	protected void keyPressed(KeyCode code) {
-		if (code == KeyCode.ENTER)
+		if (code == KeyCode.ENTER) {
 			topScene.rotateBy(180);
+			if (heading == 0) {
+				buttons.get("4l").get("").setVisible(true);
+				buttons.get("4r").get("").setVisible(true);
+				buttons.get("5l").get("").setVisible(false);
+				buttons.get("5r").get("").setVisible(false);
+			} else {
+				buttons.get("4l").get("").setVisible(false);
+				buttons.get("4r").get("").setVisible(false);
+				buttons.get("5l").get("").setVisible(true);
+				buttons.get("5r").get("").setVisible(true);
+			}
+		}
 	}
 
 	/**
@@ -605,16 +808,27 @@ public abstract class FRC2023Visualizer extends Visualizer {
 	 * @return the {@code Pose} of the specified target
 	 */
 	protected Pose targetPose(String targetID) {
-		return poseMap.get(targetID);
+		return targetMap.get(targetID);
 	}
 
 	/**
-	 * Returns the {@code TargetChooserLabelList} used by this {@code Visualizer}.
+	 * Parses the given {@code String} and constructs a new {@code Pose} accordingly.
 	 * 
-	 * @return {@code TargetChooserLabelList} used by this {@code Visualizer}
+	 * @param s
+	 *            a {@code String}
+	 * @return the constructed {@code Pose}
 	 */
-	protected LinkedList<String> targetChooserLabels() {
-		return targetChooserLabels;
+	public static Pose parsePose(String s) {
+		try {
+			s = s.substring(1, s.length() - 1);
+			String[] tokens = s.split(",");
+			String angle = tokens[2].trim();
+			angle = angle.split(" ")[0];
+			return new Pose(Double.parseDouble(tokens[0]), Double.parseDouble(tokens[1]),
+					Double.parseDouble(angle) * Math.PI / 180);
+		} catch (Exception e) {
+			return null;
+		}
 	}
 
 }

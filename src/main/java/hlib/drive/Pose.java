@@ -125,24 +125,4 @@ public class Pose extends Position {
 		return x == Double.NaN || y == Double.NaN || directionalAngle == Double.NaN;
 	}
 
-	/**
-	 * Parses the given {@code String} and constructs a new {@code Pose} accordingly.
-	 * 
-	 * @param s
-	 *            a {@code String}
-	 * @return the constructed {@code Pose}
-	 */
-	public static Pose parsePose(String s) {
-		try {
-			s = s.substring(1, s.length() - 1);
-			String[] tokens = s.split(",");
-			String angle = tokens[2].trim();
-			angle = angle.split(" ")[0];
-			return new Pose(Double.parseDouble(tokens[0]), Double.parseDouble(tokens[1]),
-					Double.parseDouble(angle) * Math.PI / 180);
-		} catch (Exception e) {
-			return null;
-		}
-	}
-
 }

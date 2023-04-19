@@ -1,19 +1,19 @@
-package hlib.frc.util;
+package hlib.frc;
 
 import java.io.File;
 import java.util.Iterator;
-import java.util.LinkedList;
+import java.util.LinkedHashMap;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * A {@code SubscriptionList} contains information about subscriptions to {@code NetworkTables}.
+ * A {@code TargetChooserMap} associates each {@code Target} ID with a label.
  * 
  * @author Jeong-Hyon Hwang (jhhbrown@gmail.com)
  * @author Andrew Hwang (u.andrew.h@gmail.com)
  */
-public class TargetChooserLabelList extends LinkedList<String> {
+public class TargetChooserMap extends LinkedHashMap<String, String> {
 
 	/**
 	 * The automatically generated serial version UID.
@@ -22,12 +22,12 @@ public class TargetChooserLabelList extends LinkedList<String> {
 	private static final long serialVersionUID = -5083647150936718395L;
 
 	/**
-	 * Constructs a {@code PoseMap} by parsing the specified file.
+	 * Constructs a {@code TargetChooserMap} by parsing the specified file.
 	 * 
 	 * @param fileName
 	 *            the name of the file
 	 */
-	public TargetChooserLabelList(String fileName) {
+	public TargetChooserMap(String fileName) {
 		try {
 			JsonNode root = new ObjectMapper().readTree(new File(fileName));
 			JsonNode poses = root.path("target choosers");
@@ -35,8 +35,9 @@ public class TargetChooserLabelList extends LinkedList<String> {
 			while (i.hasNext()) {
 				JsonNode node = i.next();
 				String label = node.path("label").asText();
-				if (label != null)
-					add(label);
+				String value = node.path("default value").asText();
+				if (label != null && value != null)
+					put(label, value);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

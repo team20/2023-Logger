@@ -21,14 +21,19 @@ public class RobotPoseEstimatorBasic extends RobotPoseCalculatorBasic implements
 	Pose poseEstimated = null;
 
 	/**
-	 * The previous left wheel encoder position of the {@code Robot} (assumed to be 0 initially).
+	 * The previous left wheel encoder position of the {@code Robot}.
 	 */
-	double leftEncoderPosition = 0;
+	Double leftEncoderPosition = null;
 
 	/**
-	 * The previous right wheel encoder position of the {@code Robot} (assumed to be 0 initially).
+	 * The previous right wheel encoder position of the {@code Robot}.
 	 */
-	double rightEncoderPosition = 0;
+	Double rightEncoderPosition = null;
+
+	/**
+	 * The previous directional angle of the {@code Robot}.
+	 */
+	Double directionalAngle = null;
 
 	/**
 	 * The {@code PoseErrorTracker} used by this {@code RobotPoseEstimatorBasic}.
@@ -89,12 +94,41 @@ public class RobotPoseEstimatorBasic extends RobotPoseCalculatorBasic implements
 	 *            the right wheel encoder position of the {@code Robot} (positive change: forward)
 	 */
 	@Override
-	public final synchronized void update(double leftEncoderPosition, double rightEncoderPosition) {
-		double leftDisplacement = leftEncoderPosition - this.leftEncoderPosition;
-		double rightDisplacement = rightEncoderPosition - this.rightEncoderPosition;
-		this.leftEncoderPosition = leftEncoderPosition;
-		this.rightEncoderPosition = rightEncoderPosition;
-		update(this.poseEstimated, leftDisplacement, rightDisplacement);
+	public final void update(double leftEncoderPosition, double rightEncoderPosition) {
+		update(leftEncoderPosition, rightEncoderPosition, null);
+	}
+
+	/**
+	 * Updates this {@code RobotPoseEstimatorBasic} based on the wheel encoders of the {@code Robot}.
+	 * 
+	 * @param leftEncoderPosition
+	 *            the left wheel encoder position of the {@code Robot} (positive change: forward)
+	 * @param rightEncoderPosition
+	 *            the right wheel encoder position of the {@code Robot} (positive change: forward)
+	 * @param directionalAngle
+	 *            the directional angle of the {@code Robot}
+	 */
+	@Override
+	public final synchronized void update(double leftEncoderPosition, double rightEncoderPosition,
+			Double directionalAngle) {
+		if (this.leftEncoderPosition == null) { // if first position and angle values
+			this.leftEncoderPosition = leftEncoderPosition;
+			this.rightEncoderPosition = rightEncoderPosition;
+			this.directionalAngle = directionalAngle;
+		} else { // if not first position and angle values
+			double leftDisplacement = leftEncoderPosition - this.leftEncoderPosition;
+			double rightDisplacement = rightEncoderPosition - this.rightEncoderPosition;
+			this.leftEncoderPosition = leftEncoderPosition;
+			this.rightEncoderPosition = rightEncoderPosition;
+			if (directionalAngle == null)
+				update(this.poseEstimated, leftDisplacement, rightDisplacement, null);
+			else {
+				Double augularDisplacement = this.directionalAngle == null ? null
+						: directionalAngle - this.directionalAngle;
+				this.directionalAngle = directionalAngle;
+				update(this.poseEstimated, leftDisplacement, rightDisplacement, augularDisplacement);
+			}
+		}
 	}
 
 	/**
@@ -104,7 +138,7 @@ public class RobotPoseEstimatorBasic extends RobotPoseCalculatorBasic implements
 	 *            the {@code Pose} from the LimeLight
 	 * @return {@code false} if the specified {@code Pose} seems like an outlier (because either the x- or the
 	 *         y-coordinate value of the {@code Pose} is different by more than the threshold compared to the
-	 *         {@code Pose) that has been estimated) and thus rejected; {@code true} if this {@code RobotPoseEstimator}
+	 *         {@code Pose} that has been estimated) and thus rejected; {@code true} if this {@code RobotPoseEstimator}
 	 *         is updated based on the specified {@code Pose}
 	 */
 	@Override
@@ -179,9 +213,14 @@ public class RobotPoseEstimatorBasic extends RobotPoseCalculatorBasic implements
 	 *            the displacement of the left wheels of the {@code Robot}
 	 * @param rightDisplacement
 	 *            the displacement of the right wheels of the {@code Robot}
+	 * @param angularDisplacement
+	 *            the displacement of the directional angle of the {@code Robot} if available ({@code null} if
+	 *            unavailable)
 	 */
-	protected void update(Pose pose, double leftDisplacement, double rightDisplacement) {
-		this.poseEstimated = nextPose(pose, leftDisplacement, rightDisplacement);
+	protected void update(Pose pose, double leftDisplacement, double rightDisplacement, Double angularDisplacement) {
+		Pose p = nextPose(pose, leftDisplacement, rightDisplacement);
+		this.poseEstimated = (p == null || angularDisplacement == null) ? p
+				: new Pose(p.x(), p.y(), angularDisplacement + pose.directionalAngle());
 	}
 
 	/**
@@ -190,7 +229,7 @@ public class RobotPoseEstimatorBasic extends RobotPoseCalculatorBasic implements
 	 * @param poseDetected
 	 *            the {@code Pose} from the LimeLight
 	 * @return {@code true} if either the x- or the y-coordinate value of the {@code Pose} is different by more than the
-	 *         threshold compared to the {@code Pose) that has been estimated; {@code false} otherwise (i.e., the
+	 *         threshold compared to the {@code Pose} that has been estimated; {@code false} otherwise (i.e., the
 	 *         specified {@code Pose} is not an outlier)
 	 */
 	protected boolean isOutlier(Pose poseDetected) {

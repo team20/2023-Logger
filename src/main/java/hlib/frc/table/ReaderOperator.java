@@ -1,6 +1,7 @@
 package hlib.frc.table;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.HashMap;
@@ -17,17 +18,31 @@ public class ReaderOperator extends Operator {
 
 	BufferedReader reader;
 
+	boolean stopped = false;
+
+	String fileName;;
+
 	public ReaderOperator(String fileName, Iterable<SubscriptionDefinition> schemas, Operator... nextOperators)
 			throws FileNotFoundException {
 		super(nextOperators);
+		this.fileName = fileName;
 		reader = new BufferedReader(new FileReader(fileName));
+		map = new SubscriptionMap(schemas);
+	}
+
+	public ReaderOperator(File file, Iterable<SubscriptionDefinition> schemas, Operator... nextOperators)
+			throws FileNotFoundException {
+		super(nextOperators);
+		this.fileName = file.getName();
+		reader = new BufferedReader(new FileReader(file));
 		map = new SubscriptionMap(schemas);
 	}
 
 	public void run() {
 		try {
+			System.out.println("started replaying " + fileName);
 			String line;
-			while ((line = reader.readLine()) != null)
+			while (!stopped && (line = reader.readLine()) != null)
 				try {
 					process(createRecord(line));
 				} catch (Exception ee) {
@@ -36,6 +51,11 @@ public class ReaderOperator extends Operator {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		System.out.println("finihsed replaying " + fileName);
+	}
+
+	public void stop() {
+		stopped = true;
 	}
 
 	protected SubscriptionRecord createRecord(String line) {

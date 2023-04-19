@@ -1,14 +1,41 @@
 {
   "RoboRIO IP address": "10.0.20.2",
-  "target choosers": [
+  "paths": [
     {
-      "label": "target(button[0])"
+      "targets": ["1l", "1", "1r", "2l", "2", "2r", "3l", "3", "3r"],
+      "paths": [ {
+        "path": ["5z", "5a"]
+      }, {
+        "path": ["1z", "1a", "5a"]
+      }
+      ]
     },
     {
-      "label": "target(button[1])"
+      "targets": ["4l", "4r"],
+      "paths": [ {
+        "path": ["4a", "4z"]
+      }, {
+        "path": ["4a", "8a", "8z"]
+      }
+      ]
     },
     {
-      "label": "target(button[2])"
+      "targets": ["5l", "5r"],
+      "paths": [ {
+        "path": ["5a", "5z"]
+      }, {
+        "path": ["5a", "1a", "1z"]
+      }
+      ]
+    },
+    {
+      "targets": ["6l", "6", "6r", "7l", "7", "7r", "8l", "8", "8r"],
+      "paths": [ {
+        "path": ["4z", "4a"]
+      }, {
+        "path": ["8z", "8a", "4a"]
+      }
+      ]
     }
   ],
   "subscriptions": [
@@ -20,27 +47,27 @@
     },
     {
       "table name": "SmartDashboard",
-      "topic name": "target(button[0])",
+      "topic name": "Target(Button)",
       "data type": "String",
       "default value": ""
     },
     {
-      "table name": "SmartDashboard",
-      "topic name": "target(button[1])",
-      "data type": "String",
-      "default value": ""
-    },
-    {
-      "table name": "SmartDashboard",
-      "topic name": "target(button[2])",
-      "data type": "String",
-      "default value": ""
+      "table name": "limelight",
+      "topic name": "hb",
+      "data type": "double",
+      "default value": 0.0
     },
     {
       "table name": "limelight",
       "topic name": "botpose",
       "data type": "double[]",
       "default value": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Heading",
+      "data type": "double",
+      "default value": 0.0
     },
     {
       "table name": "SmartDashboard",
@@ -62,91 +89,401 @@
     },
     {
       "table name": "SmartDashboard",
+      "topic name": "Wheel Velocities",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Displacements",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
       "topic name": "Target ID",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Target",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Last Travel Time",
+      "data type": "String",
+      "default value": ""
+    },
+    {
+      "table name": "SmartDashboard",
+      "topic name": "Drive Distances",
       "data type": "String",
       "default value": ""
     }
   ],
-  "poses": [
+  "targets": [
     {
       "id": "1l",
+      "color": "RED",
       "pose": [
         6.54310,
-        -3.49539,
+        -3.49659,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "1",
+      "color": "RED",
       "pose": [
         6.54310,
         -2.93659,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "1r",
+      "color": "RED",
       "pose": [
         6.54310,
-        -2.37779,
+        -2.37659,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "1a",
+      "color": "RED",
+      "pose": [
+        3,
+        -2.93659,
+        0
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "1z",
+      "color": "RED",
+      "pose": [
+        5.7,
+        -2.93659,
+        0
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "2l",
+      "color": "RED",
+      "pose": [
+        6.54310,
+        -1.81019,
+        0
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "2",
+      "color": "RED",
       "pose": [
         6.54310,
         -1.26019,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "2r",
+      "color": "RED",
+      "pose": [
+        6.54310,
+        -0.70019,
+        0
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "3l",
+      "color": "RED",
+      "pose": [
+        6.54310,
+        -0.14621,
+        0
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "3",
+      "color": "RED",
       "pose": [
         6.54310,
         0.41621,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
-      "id": "4",
+      "id": "3r",
+      "color": "RED",
+      "pose": [
+        6.54310,
+        0.97621,
+        0
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "4r",
+      "color": "BLUE",
       "pose": [
         7.20832,
-        2.74161,
+        2.24161,
         0
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
-      "id": "5",
+      "id": "4l",
+      "color": "BLUE",
+      "pose": [
+        7.20832,
+        3.24161,
+        0
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "4a",
+      "color": "BLUE",
+      "pose": [
+        5,
+        2.71621,
+        0
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "4z",
+      "color": "BLUE",
+      "pose": [
+        -5.7,
+        0.7,
+        180
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "5r",
+      "color": "RED",
       "pose": [
         -7.20832,
-        2.74161,
+        3.24161,
         180
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "5l",
+      "color": "RED",
+      "pose": [
+        -7.20832,
+        2.24161,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "5a",
+      "color": "RED",
+      "pose": [
+        -5,
+        2.71621,
+        180
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "5z",
+      "color": "RED",
+      "pose": [
+        5.7,
+        0.7,
+        0
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "6l",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        0.97621,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "6",
+      "color": "BLUE",
       "pose": [
         -6.54310,
         0.41621,
         180
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "6r",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        -0.14621,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "7l",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        -0.70019,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "7",
+      "color": "BLUE",
       "pose": [
         -6.54310,
         -1.26019,
         180
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "7r",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        -1.81019,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "8l",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        -2.37659,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
     },
     {
       "id": "8",
+      "color": "BLUE",
       "pose": [
         -6.54310,
         -2.93659,
         180
-      ]
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "8r",
+      "color": "BLUE",
+      "pose": [
+        -6.54310,
+        -3.49659,
+        180
+      ],
+      "distance threshold": 0.1,
+      "angle threshold": 5,
+      "time threshold": 0.2
+    },
+    {
+      "id": "8a",
+      "color": "BLUE",
+      "pose": [
+        -3,
+        -2.93659,
+        180
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
+    },
+    {
+      "id": "8z",
+      "color": "BLUE",
+      "pose": [
+        -5.7,
+        -2.93659,
+        180
+      ],
+      "distance threshold": 0.5,
+      "angle threshold": 10,
+      "time threshold": 0.2
     }
   ]
 }

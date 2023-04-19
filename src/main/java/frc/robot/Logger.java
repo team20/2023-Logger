@@ -56,11 +56,11 @@ public class Logger extends Operator {
 	 * The {@code NetworkTableInstance} used by this {@code Logger} .
 	 */
 	NetworkTableInstance ntInstance = NetworkTableInstance.getDefault();
-	
+
 	SubscriptionMap subscriptionMap;
 
 	HashMap<String, HashMap<String, Publisher>> publishers = new HashMap<String, HashMap<String, Publisher>>();
-	
+
 	/**
 	 * Constructs a {@code Logger}.
 	 * 
@@ -90,6 +90,9 @@ public class Logger extends Operator {
 		}
 		System.out.println("connections: " + Arrays.toString(ntInstance.getConnections()));
 
+		// TODO try to pull data from:
+		// /LiveWindow
+		// /FMSInfo
 		for (SubscriptionDefinition subscription : subscriptions) {
 			NetworkTable table = ntInstance.getTable(subscription.tableName());
 			String tableName = subscription.tableName();
@@ -144,7 +147,7 @@ public class Logger extends Operator {
 
 	@Override
 	protected void process(SubscriptionRecord entry) {
-		// System.out.println("Logger:  " + entry);
+		// System.out.println("Logger: " + entry);
 		if (entry.dataType() == DataType.STRING)
 			process(entry.tableName(), entry.topicName(), entry.dataType(), (String) entry.value());
 		else if (entry.dataType() == DataType.STRING_ARRAY)
@@ -212,7 +215,7 @@ public class Logger extends Operator {
 				p = ntInstance.getTable(tableName).getDoubleArrayTopic(topicName).publish();
 			m.put(topicName, p);
 		}
-		return (P)p;
+		return (P) p;
 	}
 
 	/**
@@ -240,8 +243,7 @@ public class Logger extends Operator {
 			System.out.println("RoboRIO IP address: " + ipAddress);
 			ServerOperator s = new ServerOperator(10000);
 			Logger logger = new Logger(ipAddress,
-					new SubscriptionList(deployPath + File.separator + "configuration.json"),
-					new LoggingOperator(), s);
+					new SubscriptionList(deployPath + File.separator + "configuration.json"), new LoggingOperator(), s);
 			s.addNextOperator(logger);
 			logger.run(30 * 60);
 			s.shutdown();
